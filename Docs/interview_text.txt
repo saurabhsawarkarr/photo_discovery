@@ -1,0 +1,769 @@
+ISHWAR 
+ 
+Ishwar: So just now, I did a simple search asking to show "pictures in hoodies." 
+Saurabh: No, the last time you searched, you basically searched for a hoodie. 
+Ishwar: And what did you type in it then? "Pictures in hoodies." 
+Saurabh: Okay. So did it give a result? Yes, it gave the results with hoodies. 
+Ishwar: But then? That's correct, but a lot of other ads also come up, right... In that, it asks to 
+show embarrassing photos etc. I searched for all this too. Like, I searched for embarrassing 
+ones, or what do you call it, searched for some funny ones. 
+Saurabh: No, what you are saying—on Google Photos you have to give a certain name. Okay? 
+After that, it can come up. Meaning, if you assign a person's name... like you gave the name 
+Bevda (Drunkard). Okay. Then if you type "funny photos of bevda", then it will come up. That's 
+how it basically works. 
+Ishwar: Name where? You mean in the search, we have to give a name to the photo? 
+Saurabh: Yes, you have to give a name to the face there. Now how it happens is, it detects the 
+face and shows everyone's different faces, and you can give them a name. Once you give a 
+name, you can search according to that specific person. 
+Ishwar: So is your primary app the Samsung Gallery? 
+Saurabh: Yes, I use Samsung's gallery only. 
+Ishwar: Okay, and does Samsung have this search option? 
+Saurabh: There is a search option in Samsung's gallery too, but you have to be very specific in 
+it. Like asking it to show clear photos, blurry photos, event photos, or scenic photos. 
+Saurabh: Do one thing, open the app. Scroll down a bit, pick a photo you know well, and 
+describe that photo in the search. Check if it retrieves that exact same photo. 
+Ishwar: Here is a gardening photo. 
+Saurabh: Gardening? Meaning planting trees etc., right? Try putting that in. 
+Ishwar: Wait, is it asking to enable Gemini? No, that's a different thing. You were saying that if 
+Gemini is enabled then you get full access or something. But on the iPhone, the option to 
+enable Gemini didn't even come up. This is a totally different headache, bro. I have a lot of 
+limitations on iPhone. There's no option for me to enable Gemini there. I looked on YouTube 
+and many people are accessing it, but I don't understand how I'm supposed to work without the 
+option. 
+Saurabh: Now for you, I had assigned a name to your face in the suggestions. I added 
+"Pictures of Saurabh". Now there are a lot of photos in this gallery, but it didn't detect a single 
+one. It says "No results found". Remember we went to a dhaba (roadside restaurant) once? I 
+gave your name to a face in one of those photos. Now it only shows photos from that dhaba, it 
+doesn't show any other photos. 
+Ishwar: What now, the gardening photo I told it to search for, it didn't take it, right? I searched 
+for "Pictures of gardening" and it said "No results found". 
+Saurabh: What is exactly in that photo? 
+Ishwar: It's a photo of planting trees at an office event. 
+Saurabh: Put it like this: put "planting trees". 
+Ishwar: "Planting trees", okay? Hmm. In this, photos of trees came up, and my photos came up. 
+I don't know what my role is in it. Photos of dashboards, hills, lawns... all random photos came 
+up. Damn, I don't understand it. Everyone's experience is different. 
+Saurabh: One person told me they find all their photos easily. If they can't, they think about who 
+was with them in a group photo and find it that way. The regular user whose primary app is 
+Google Photos seems to have it all sorted. I think there is a big issue with sync; your sync 
+needs to be fully sorted. 
+Ishwar: Maximum iPhone users don't use Google Photos at all. Even my sync is half off. And 
+there's no option to activate Gemini. 
+Saurabh: Do you feel like there should have been a feature added to make this easier? For 
+example, auto-complete? 
+Ishwar: Yes, auto-complete! Like if you type "planting trees", it should suggest something next. 
+Because our wording is sometimes different, and it only gives two or three generic suggestions. 
+It would help narrow down the results. 
+Saurabh: I think those ads that are running, like "Show me embarrassing photos of my brother", 
+they can't even pull that off in the first place. These people bring up such a bad problem 
+statement [in their ads], I don't understand anything. 
+​
+​
+​
+​
+​
+​
+ 
+ 
+ 
+RESHAM 
+ 
+​
+​
+​
+Saurabh: So last time when you did this... I'll speak in Hindi. When you used it last time, what 
+specific photo were you trying to find? Meaning, what were you looking for, what type of photo 
+were you basically looking for? 
+ 
+Resham: Last time, actually... Ganpati is hosted at my place, so I wanted to see last time's 
+decoration to see how it was for reference. So I searched for it. 
+ 
+Resham: I had created a folder named 'Ganpati' where I can see Ganpatis from every year. 
+Right? So I was looking in that. But I didn't find it in there. Then I went to normal, meaning 
+without any folders, and just searched for 'Ganpati' and put the year. 
+ 
+Saurabh: No, meaning when you searched there, you scrolled first. You didn't find it by scrolling 
+because there were a lot of photos in it, right? Then after that, you searched, right or not? 
+ 
+Resham: Yes, yes. Then I searched. 
+ 
+Saurabh: So after searching, did it come up in that or not? It didn't come. 
+ 
+Resham: It didn't come in that one. 
+ 
+Saurabh: So then what did you do in that? 
+ 
+Resham: I added another keyword, I added the year. So based on the year, it showed up. But 
+the exact photo I wanted didn't appear, though something similar around that showed up. 
+ 
+Resham: I got a photo of that year, but the exact photo I was looking for—front-facing—I didn't 
+find that, I found a side-facing one just by searching. 
+ 
+Saurabh: Okay, this is a recent thing. Has it ever happened that you are searching, and you 
+know the photo exists, but you never found it... meaning it wasn't even possible for Google to 
+find it for you? 
+ 
+Resham: Yes, that has happened too. I have very old photos that I know I had backed up, but I 
+am not finding them. I would try searching by putting different keywords, but I still couldn't find it. 
+ 
+Resham: So I just gave up. Didn't look for it then. 
+ 
+Saurabh: And have you ever searched specifically, meaning an address, or a person, or 
+something like an event... did you do a specific search? Events are okay, like an address, a 
+specific place... and you knew you took a photo there. Have you searched something like that? 
+ 
+Resham: Yes, I have searched based on location. Like I went out somewhere to roam, so for 
+that location... I hadn't made a separate folder for it, but I knew the location and I remembered 
+that I clicked photos. So I searched using that location name, the name of the place, and tried it. 
+It comes up, properly. 
+ 
+Saurabh: It comes up? Meaning if you put the location, it basically comes up like that. 
+ 
+Resham: Yes, if you put the location or the name of the place or whatever, it was coming up for 
+me. 
+ 
+Saurabh: So, like sometimes search doesn't work, as you were saying, like you couldn't find 
+Ganpati photos. So where else do you look? Meaning, do you just have one app, Google 
+Photos? 
+ 
+Resham: I have only one app, it's just Google Photos. 
+ 
+Saurabh: Oh. Do you have a Realme gallery etc... you have a Realme phone, right? You don't 
+use it? 
+ 
+Resham: No no. I don't use it. 
+ 
+Saurabh: You have a Realme phone, right? 
+ 
+Resham: Yes, Realme. 
+ 
+Saurabh: So you don't use it in that. 
+ 
+Saurabh: Do you sometimes, like... sometimes it happens that we know we made a specific 
+folder, or there's a photo in a folder. Did you have to look into multiple folders, or favorites, or did 
+you have to check something like that? Like you had to search in two or four places? 
+ 
+Resham: I couldn't find it. Meaning, not in search, in folders. 
+ 
+Resham: In folders, usually, I can find it by year. If I don't remember when I clicked it, but I know 
+this guy or girl was in the photo, then I open that person's folder and then scroll and check in 
+that. 
+ 
+Saurabh: Meaning, that is your primary app, so I think you must have given names to all those 
+people. 
+ 
+Resham: Yes, I have kept them. For maximum people who I know. 
+ 
+Saurabh: Okay. So like, you were talking about a place, so how did you search for it? Meaning 
+what did you type there? 
+ 
+Resham: I just typed the name of the place. Like there's a place near Wardha, Yela Khedi... so 
+there, I just put that place's name... 
+ 
+Saurabh: So meaning there... you didn't need it to be so specific, but you knew you had taken a 
+photo there. And you wanted something related to that. Meaning even after it showed multiple 
+options, you were happy that, okay, I got it. You didn't have to scroll much? After putting a 
+keyword, you basically got it sorted. 
+ 
+Resham: Yes, sorted and found the photos. Then whatever I needed, I... 
+ 
+Saurabh: Like during Ganpati time, you searched and didn't find it. First of all. Then you put the 
+year. Then still, the photo you wanted didn't come up. So what do you think... what should you 
+have added to the prompt so that you would have found that photo? 
+ 
+Resham: Maybe I should have mentioned the direction... like front-facing or something like that. 
+I wanted the photo from this angle... so maybe it would have sorted and given it. 
+ 
+Saurabh: And like, if you don't find a photo in Google Photos, do you check your other phone's 
+gallery or not? 
+ 
+Resham: First I check the phone's gallery, then Google Photos. But if I'm looking for an older 
+photo... meaning, up to a certain year, my data is saved in my phone's gallery. But the older 
+data is in my Google Photos. 
+ 
+Saurabh: Oh, meaning you were looking for some old stuff. And I think there's no search option 
+in Realme according to me. 
+ 
+Resham: No, there isn't anything. 
+ 
+Saurabh: So here, when it gets synced, then it is found. Like in my case, the sync on this phone 
+is also off, and the sync on the phone before this was also off. So for me, the very old photos 
+are the only ones that are synced. So meaning, the old photos you have are synced, and if you 
+have to look at them, you maybe use Google Photos. 
+ 
+Resham: Yes. If I know a specific person, it automatically creates a folder, I like that feature 
+basically. 
+ 
+Saurabh: Have you ever experienced a time when you are searching for photos, and it's taking 
+so much time that you just think, 'It's been too long, man, I won't search anymore'? 
+ 
+Resham: It taking time... has it happened, or does it give wrong results... 
+ 
+Resham: It hasn't given wrong results so far according to me. 
+ 
+Saurabh: Meaning irrelevant... like if you didn't get what you wanted, but you get something or 
+the other? 
+ 
+Resham: Yes, it gives something or the other. It searches and finds it. That has happened. And 
+it hasn't taken a lot of time like that. Meaning there was no need to spend a lot of time. 
+ 
+Saurabh: So do you sometimes get frustrated, like you didn't find it, "Oh man, since when have 
+I been looking, I put this too, I put that too"? Does that happen? Or does it give you many 
+options and you find what you need? 
+ 
+Resham: No, meaning it has happened, a long time ago. Now I don't remember what I was 
+searching for, but after searching a lot, I still couldn't find it. I searched a lot, scrolled for 15-20 
+minutes, year by year, but I still wasn't getting it. So then I just left it, skipped it. 
+ 
+Saurabh: Okay. And like if you want to change one thing, this Google Photos... what do you 
+think? Meaning in terms of search. If they gave something like this, it would be fun. Like you 
+faced a problem, you had to put the year, you didn't find the front-facing one... so if they gave 
+you some option like this, you would feel that search has become easy, and you got what you 
+wanted easily. 
+ 
+Resham: One thing we can do is, if in the search, whatever keyword we are looking for, if we 
+put that... a single keyword or whatever. After that, doesn't it give suggestions below? Like, 'Are 
+you looking for this year?' or 'Are you looking for this time or month?' or any place. If they give 
+an option like that, it would be easy to sort. 
+ 
+Saurabh: Understood. Hmm, okay, I understand. Meaning basically, like how we search in 
+Google, it gives autocomplete, or it basically gives suggestions. 
+ 
+Resham: It gives suggestions, like do you want to find this, do you want to find that. Like if I say 
+I want to see Ganpati. But I just put Ganpati and I will get a lot of types, whatever photos I have 
+saved. But if I put Ganpati decoration or... meaning it should suggest, do you want to add 
+decoration after Ganpati, do you want to put the year, or do you want to see Ganpati of some 
+place... meaning options should come right there. Like, if you select this, you want to put the 
+year, or put the decoration... it automatically gives suggestions basically. 
+ 
+Saurabh: Yes, they can do this, or maybe they can... doesn't it show boxes below? Meaning 
+two-four rectangular boxes with suggestions, like do you want to see Ganpati for this year or this 
+place. So if you click there, the photos will be filtered and sorted. 
+ 
+Resham: Yes, filter... meaning basically filter types. 
+ 
+Saurabh: Yes, filter. Right now, okay, this I understand. Improvements I understand, what you 
+think. And like, you use Google Photos now. So do you face any other difficulty? Meaning in 
+terms of UI, or anything, meaning... sometimes it gets slow, sometimes it seems glitchy, 
+anything like that? 
+ 
+Resham: On the basis of UI... 
+ 
+Saurabh: Not UI... any problem, difficulty or problem, whatever you can think of. 
+ 
+Resham: Like that shared folder, right? Where people add their photos and send a link, and it 
+automatically comes to our Google Photos. It takes time to find that shared one. I felt that. 
+ 
+Saurabh: Meaning when you search Google, it takes time in that too, is that what you mean? 
+ 
+Resham: Yes. The shared folders, right... you don't find them easily. Meaning you have to 
+search for them, go to the options and see, then you find it. 
+ 
+Saurabh: Does it get searched? 
+ 
+Resham: I haven't tried searching, but let me see... 
+ 
+Resham: No, it's not coming up. On searching. 
+ 
+Saurabh: No, meaning shared things don't get searched basically, I think. 
+ 
+Resham: The shared folder is not visible. Hmm. 
+ 
+Saurabh: Okay, okay, understood. So these were the only questions, I will turn off the 
+recording. Do you want to add anything else? Whatever XYZ. 
+ 
+Resham: I am thinking, wait a minute. 
+ 
+Resham: No, as of now, no. If Google Photos builds all this, then... no, nothing. 
+ 
+Saurabh: Okay. Give me one second, I will turn it off. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NAINA 
+ 
+ 
+Saurabh: Let's take a hypothetical scenario. You are in the office and you have to show a 
+specific photo, but you are searching and you can't find it. What will you do? 
+Naina: Nothing, then I think about which month or year it's in, and I start looking accordingly. 
+Saurabh: Meaning all your photos are synced, so your primary app for looking at new and old 
+photos or searching photos is Google Photos. 
+Naina: Yes, it's Google Photos. For example, if it's your or Resham's birthday, I don't directly 
+search the regular gallery because I know I won't find it. I go to my photos in Google Photos, 
+click on Resham, take a screenshot, and use that. Yes, there's one thing there... you have to 
+take a screenshot, it doesn't give a direct download option where if you download it, it directly 
+syncs to the top of your photos. There's no option like that. 
+Saurabh: If you had to make an improvement in Google Search specifically, what would you 
+suggest? 
+Naina: The most important thing is that when we search, we need that camera option next to it. 
+So we get it directly. And the second thing, I'm not talking about search but this download 
+option, we need a download option, man. 
+Saurabh: And if they gave something in search, for example like filters... 
+Naina: Yes, they can provide it in filters, they can try that, or autocomplete. Because in search, 
+we don't remember everything, sometimes particular things stay in memory and the rest is 
+forgotten. 
+Saurabh: Like if you went somewhere... like suppose you went to visit Pune. You must have 
+taken a photo there. So if you skip the location and describe the place, do you think the photo 
+will come up? If you describe the background a bit, like temple or monsoon... 
+Naina: One minute... I'll check... I'll try 'temple'. Yes, if you search 'temple', it comes up. 
+Saurabh: Do a specific search. A specific place. 
+Naina: Yes, I entered it, look. I put one temple, I had gone to Ram Dhara temple, and it came 
+directly. 
+Saurabh: No no, not like that. You have many temples in your photos. Find a specific photo, 
+think of one, and describe it in the search and see what happens. Like put a specific photo like 'I 
+am sitting here', yes you can put that boat photo. 
+Naina: Boat, one minute, I remember one. Hmm, 'standing near fort' comes up. 
+Saurabh: Is it the exact one you were thinking of? 
+Naina: Yes, correct, the same one came up. 
+Saurabh: And if there's any common photo, like you went somewhere last time, so you must 
+have a lot of temple photos. Try finding that specific photo based on what you were wearing. 
+Naina: Wait a minute. What was I wearing... white top. White, yes, look if I put it in clothes, it 
+gives all of them, meaning if we put normal 'white top' or something... 
+Saurabh: No, like you said something specific like 'white clothes', so put it like 'I was wearing 
+white clothes in the temple', something like that and see if it gives it... 
+Naina: White top.. wearing white top... wearing white top and standing near temple... yes it 
+came, it came! 
+Saurabh: Okay, but earlier when you just put 'white top' it didn't come, right? 
+Naina: Obviously when I put 'white top' things in my bag would have also come up, other things 
+would have also come up. 
+Saurabh: So in this, did it give any nudge, meaning did it ask anything or try to help... like 
+Google Search giving a nudge so your experience could have been better? Like asking 'which 
+temple' or 'which time'? 
+Naina: Currently no, because it is giving photos. 
+Saurabh: Now take an example of a photo that you took from a specific year, and search like 
+that. First do a normal search, then after that put the year and check. 
+Naina: Okay, listen, if we put "2026 photos of mine". 
+Saurabh: It doesn't give them? 
+Naina: No, not like that. Now look, you are not understanding what I am saying. When you were 
+in Airtel, you went to the hospital, remember? Try searching for that photo. Don't put the year. I 
+put 'Airtel photos', so whatever specific Airtel photos are there came up. 
+Saurabh: For Airtel, look, you are getting confused... we don't want a generalized result. When 
+we search for something, we have a photo in our mind that we know we took. Like I took a 
+photo looking at the sunset. I want exactly that specific photo. My goal is that I look at a specific 
+photo, it didn't give it, then I put the year... so it adds a year and gives better results, does it 
+improve the results? 
+Naina: 26 is going on, mother... 2026 is almost over... It came when I put the year. But it didn't 
+come when I put it like that without the year. 
+Saurabh: Okay, fine, it will work. I will turn off the recording. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PRITISH 
+ 
+ 
+ 
+**Pritish:** Now in Google Photos, that new AI option is coming, AI photos. 
+ 
+**Saurabh:** Hmm hmm hmm. 
+ 
+**Pritish:** And now that one should have a bit more of its... what do you call it... power 
+increased. 
+ 
+**Saurabh:** No, for now just answer the questions I am asking you. 
+ 
+**Pritish:** Yes, yes, tell me. 
+ 
+**Saurabh:** Have you ever tried searching for old photos like this? 
+ 
+**Pritish:** I haven't really tried searching for them, but if there's ever a need or if we randomly 
+take a photo, it just shows up in the suggestions for us. 
+ 
+**Saurabh:** Have you used the search feature or not? 
+ 
+**Pritish:** I have used the search feature. 
+ 
+**Saurabh:** What did you use it for? 
+ 
+**Pritish:** Like, you know, we take photos of little kids and keep them, so I used it to tease 
+them a bit, just for fun and joking around. 
+ 
+**Saurabh:** So now I'm asking you, which photo did you search for the last time in Google 
+Photos? 
+ 
+**Pritish:** Which photo did I search for... 
+ 
+**Saurabh:** And the one you searched for, did you know that such a photo exists? Okay, you 
+knew that, right, and then why did you search for it? If you don't remember the exact last time, 
+just tell me whatever you remember. 
+ 
+**Pritish:** I don't remember exactly, but sometimes what happens is we have to submit 
+documents or something, so we need the exact document we saved... 
+ 
+**Pritish:** It stays in good quality, so we just upload it. Suppose an Aadhar card is needed, then 
+we upload the photo... 
+ 
+**Saurabh:** No, then that in Google Photos... yes, okay. 
+ 
+**Pritish:** Okay, I'll tell you a recent one. There's a little girl, my sister, I searched for her photo. 
+I had to send all her old photos, so I got all the photos and sent them. 
+ 
+**Saurabh:** Okay. 
+ 
+**Saurabh:** So when you had to find these photos, what did you type basically? Like there's an 
+option in Google Photos where you can give names to people's faces. 
+ 
+**Pritish:** Yes yes yes. 
+ 
+**Saurabh:** So how did you search then? Meaning, what did you type basically? 
+ 
+**Pritish:** In the Google Photos I use, names keep getting added already. 
+ 
+**Saurabh:** You mean when we upload a photo, the option comes to 'name this person' etc.? 
+ 
+**Pritish:** Yes, they were added like that. Suppose it's mom, dad, or whoever, you put their 
+name and they come up. The ones we tagged automatically. 
+ 
+**Saurabh:** No no, like you said you were searching for someone's photo, so what did you type 
+in that search query? What prompt did you give basically? 
+ 
+**Pritish:** What prompt did I give? "Sirja photos". 
+ 
+**Saurabh:** That's it? 
+ 
+**Pritish:** Hmm, that's it, and it came up. 
+ 
+**Saurabh:** Okay, and has it ever happened to you that you needed to find a specific photo, for 
+example... 
+ 
+**Pritish:** Correct. 
+ 
+**Saurabh:** ...and you described that photo? Like, "recently we went to that temple 
+somewhere, it was wintertime, I was wearing those purple clothes or a full black jacket", right? 
+ 
+**Saurabh:** Have you ever searched specifically like this, and what result did you get from it? 
+ 
+**Pritish:** No no, never had that much of a need. 
+ 
+**Saurabh:** Meaning you haven't searched this specifically basically. 
+ 
+**Pritish:** No. 
+ 
+**Saurabh:** And whenever you use the search option now, what things do you use it for? You 
+just told one scenario about that little girl. 
+ 
+**Pritish:** Normally for sharing photos, and after that if we want to find any photos, or any 
+documents or bills, I use it for that. 
+ 
+**Saurabh:** Can you find bills with it then? 
+ 
+**Pritish:** Yes. 
+ 
+**Saurabh:** How do you find them, what do you type? Like suppose you have to find last year's 
+August bill... 
+ 
+**Pritish:** Not exactly, but if I put "Ravi Mens", and suppose you have taken four or five photos, 
+then whatever bills there are in the name of Ravi Mens come up in suggestions. 
+ 
+**Saurabh:** Ravi Mens, meaning it was a bill in that name. 
+ 
+**Pritish:** The bill for his shop, so it finds the name on the bill and gives it to us. 
+ 
+**Saurabh:** Okay. 
+ 
+**Saurabh:** But has it ever happened that... okay, this is a very generalized thing, right, that 
+you are searching for all bills overall. 
+ 
+**Pritish:** Yes. 
+ 
+**Saurabh:** But if you looked for something specific in your search? Specific meaning like, "this 
+date's, this month's, this year's bill". Does it show the result then? 
+ 
+**Pritish:** No, I will have to try that. 
+ 
+**Saurabh:** Do it then, open the app. 
+ 
+**Pritish:** Wait. 
+ 
+**Saurabh:** Meaning, take a scenario where you are looking for a specific photo, okay, of a 
+specific location. You have the photo in your mind, describe it roughly. 
+ 
+**Pritish:** Hmm hmm. 
+ 
+**Saurabh:** And then check if it comes up. 
+ 
+**Pritish:** Alright. 
+ 
+**Saurabh:** Check it like that once. 
+ 
+**Pritish:** Yes, wait. 
+ 
+**Pritish:** What should I type? Wait. 
+ 
+**Saurabh:** First of all, imagine the photo you want to find, and put the description according to 
+that. 
+ 
+**Pritish:** Okay... Lake... in... Rajasthan... Night... View. 
+ 
+**Pritish:** Yes, it came. 
+ 
+**Saurabh:** Did it come? You typed "Lake in Rajasthan Night View". 
+ 
+**Pritish:** Hmm. 
+ 
+**Saurabh:** Okay, so did the one you wanted come up? 
+ 
+**Pritish:** Yes yes yes. 
+ 
+**Saurabh:** And did the exact one come or relevant ones? Meaning if we take 10 photos, out 
+of 10 we want one... 
+ 
+**Pritish:** All of them came, all came. 
+ 
+**Saurabh:** All came. 
+ 
+**Pritish:** Hmm. 
+ 
+**Saurabh:** Try finding a person. Type specifically that you took this person's photo 
+somewhere... 
+ 
+**Pritish:** Wait wait, I will put Anuj's name. 
+ 
+**Saurabh:** Don't put a recent wedding one, put something a bit further back, meaning an older 
+one. 
+ 
+**Pritish:** I will put "Anuj photos of Rajasthan", from four-five years ago. 
+ 
+**Saurabh:** When did four-five years happen, it's been two years. 
+ 
+**Pritish:** Yes, put the two-year-old one, put that. 
+ 
+**Saurabh:** You know what, initially I wasn't even going to ask you questions. I thought you 
+have an iPhone so you must be using only that, using those photos. 
+ 
+**Pritish:** No, what happens is space falls short on the iPhone, so I uploaded photos on Drive 
+as well. 
+ 
+**Saurabh:** Oh, is that so. 
+ 
+**Pritish:** Because when I managed it in both places, my storage is 128 GB right, so I have to 
+manage it. 
+ 
+**Saurabh:** Hmm hmm. 
+ 
+**Pritish:** So look here, I put "Anuj photos of Rajasthan" etc... "Anuj and friends exploring" and 
+so on came up... 
+ 
+**Saurabh:** So in this, there are irrelevant photos too, in which Anuj isn't there, that also came? 
+ 
+**Pritish:** No, in those full photos, it could be a group too, but is Anuj in it or not? 
+ 
+**Saurabh:** No, in that it gave some photos of me too, right, so it... 
+ 
+**Pritish:** Oh, meaning you guys have similar faces, so it gave your photo too, like that. 
+ 
+**Saurabh:** No, not similar faces either. It's maybe because I put Rajasthan, so it... 
+ 
+**Pritish:** Yes, now it caught that. 
+ 
+**Saurabh:** Yes, so it caught that. 
+ 
+**Saurabh:** Did you assign the name Anuj? Meaning to Anuj's face? 
+ 
+**Pritish:** Yes yes. 
+ 
+**Saurabh:** Then... do one thing, now put the year in the same prompt and check what result 
+changes. 2024 I think. 
+ 
+**Pritish:** 2024. 
+ 
+**Pritish:** So it gave Anuj's photos among the 2000 photos. 
+ 
+**Saurabh:** Hmm. 
+ 
+**Pritish:** Okay. 
+ 
+**Saurabh:** No. 
+ 
+**Pritish:** No. 
+ 
+**Saurabh:** Meaning it found it, it was giving everything. 
+ 
+**Saurabh:** Yes, it was giving everything, it didn't give the specific result you wanted basically. 
+ 
+**Pritish:** When I put 23, everything came. 
+ 
+**Saurabh:** Everything came meaning did bills come or not? Meaning is it an irrelevant result 
+basically? 
+ 
+**Pritish:** No, it is a relevant result, all bills came. 
+ 
+**Pritish:** All bills came. 
+ 
+**Saurabh:** Yes. 
+ 
+**Saurabh:** And all bills from that year came. But if you put a specific date... 
+ 
+**Pritish:** Date, meaning wait, I will have to put it just like the date is in the photo, then I put 
+ours in English. 
+ 
+**Saurabh:** Hmm. 
+ 
+**Pritish:** No, but it shouldn't be like that. It should take that too, numbers too... numbers and 
+letters too, it should take everything. 
+ 
+**Saurabh:** Hmm. 
+ 
+**Pritish:** I'll try putting Ambazari, I had gone to Ambazari sometime. 
+ 
+**Pritish:** Yes they came, when I put Ambazari, whatever photos of Ambazari were there, they 
+came. 
+ 
+**Saurabh:** Okay. 
+ 
+**Saurabh:** And has it ever happened to you that you are using it and the photo is not found? 
+Meaning basically the photo you wanted didn't even get searched? 
+ 
+**Saurabh:** Do you remember anything like that? 
+ 
+**Pritish:** No. You know what the problem is? This feature is very... meaning damn it, very few 
+people have used it. 
+ 
+**Saurabh:** Hmm. 
+ 
+**Pritish:** And theirs is absolutely specific that whatever has to be done, has to be done about 
+that only. 
+ 
+**Saurabh:** That's what it is. 
+ 
+**Pritish:** Hmm. 
+ 
+**Saurabh:** While you were searching, did you feel like it was slow or anything... did you feel 
+something like that? 
+ 
+**Pritish:** No, it's fine, it's okay, it's like our ChatGPT. 
+ 
+**Saurabh:** Okay. 
+ 
+**Saurabh:** Now like this feature is there, if you want to make some improvement in it okay, 
+and someone is randomly asking you... 
+ 
+**Pritish:** Make it a bit easy, its interface is very hard. 
+ 
+**Saurabh:** Interface very hard meaning... meaning as far as I know, you have to click on 
+normal search and type, that's it, it's only that much right? 
+ 
+**Pritish:** You have to type, but the thing is many options come up. 
+ 
+**Saurabh:** Like which collection it is, which creation it is, what it is... 
+ 
+**Saurabh:** Those suggestions come right? 
+ 
+**Pritish:** Yes yes yes, so those suggestions come a lot. 
+ 
+**Saurabh:** Okay. 
+ 
+**Saurabh:** So do you still feel like something specific should be done in this, meaning any 
+input from your side? 
+ 
+**Pritish:** Wait, I'll do one thing. Like I told you, I have doctor's prescriptions uploaded in this. 
+ 
+**Saurabh:** Hmm. 
+ 
+**Pritish:** So I will try searching for one... and also check which suggestions come up while 
+completing the sentence. 
+ 
+**Saurabh:** Yes, okay. 
+ 
+**Pritish:** I'll put a name, "Prachi Vakhre bills". 
+ 
+**Pritish:** Yes look, when I searched Prachi Vakhre bill, all the bills in Prachi Vakhre's name 
+came up. 
+ 
+**Saurabh:** They came up. Did all come, Prachi Vakhre didn't come, all came? 
+ 
+**Pritish:** Oh, all came meaning they didn't check the name on the prescription properly 
+basically. 
+ 
+**Saurabh:** Didn't check it, yes. 
+ 
+**Pritish:** Oh, meaning it messes up for documents. 
+ 
+**Pritish:** Okay, now what did you say, which date's... look here, a summary also comes, 'here 
+are some', I will send you a screenshot. 
+ 
+**Saurabh:** Hmm keep sending, keep sending. Take them and keep, you can send them all 
+together later. 
+ 
+**Pritish:** Yes okay. I did Prachi Vakhre bill and it sent the full bill. Now I want to ask it, Prachi 
+Vakhre bill of 12-12-2023 okay... 
+ 
+**Pritish:** Prachi Vakhre bill of 12 12 23. 
+ 
+**Pritish:** No, it didn't find it. Didn't find 12-12. 
+ 
+**Saurabh:** Oh, try putting just 2023. 
+ 
+**Pritish:** Yes doing that now. "Bill of 2023". 
+ 
+**Saurabh:** Meaning it found it, meaning it was giving everything? 
+ 
+**Pritish:** Yes it was giving everything, meaning it didn't give the specific result wanted 
+basically. 
+ 
+**Pritish:** When I put 23, everything came. 
+ 
+**Saurabh:** Everything came, meaning did bills come or not, meaning is it an irrelevant result 
+basically? 
+ 
+**Pritish:** No it is a relevant result, all bills came. 
+ 
+**Saurabh:** All bills came. 
+ 
+**Pritish:** Yes. 
+ 
+**Saurabh:** And all bills of that year came. But if you put a specific date, then that date... 
+ 
+**Pritish:** Date meaning wait, I will have to put the date just like it is in the photo, then I put 
+ours in English. 
+ 
+**Saurabh:** Hmm. 
+ 
+**Pritish:** No, but it shouldn't be like that. It should take that too, numbers too... numbers and 
+letters too, it should take everything. 
+ 
+**Saurabh:** Hmm. 
+ 
+**Pritish:** No, it is not finding like that, it's not dated. 
+ 
+**Saurabh:** Not dated. Hmm. 
+ 
+**Saurabh:** Okay, so then what... what additional suggestions do you have, like someone just 
+told me that maybe we can add a filter in this. One person also said that if I am searching for 
+something about a person, then I should have an option to upload a photo in it, like I uploaded a 
+photo, okay. So if there's any such input from your end, then tell me. 
+ 
+**Pritish:** That photo uploading one is good, like how Google Lens works. 
+ 
+**Saurabh:** Like Google Lens works, right? 
+ 
+**Pritish:** Yes yes yes. 
+ 
+**Saurabh:** Like that, hmm. 
+ 
+**Saurabh:** Anything else? 
+ 
+**Saurabh:** You think about this, and do you feel until now that we talked this much, did we 
+miss anything in this that we should have discussed? 
+ 
+**Pritish:** No, it's fine. 
+ 
+**Saurabh:** We want to do the main focus on that, on search, right? 
+ 
+**Pritish:** Yes, have to do it on the search button only. 
+ 
+**Saurabh:** Nothing? 
+ 
+**Pritish:** No nothing. If anything comes up, then you can let me know, you can drop a voice 
+note. 
+ 
+**Saurabh:** Yes okay, I am closing it. 
+ 

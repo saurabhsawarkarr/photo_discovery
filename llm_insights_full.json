@@ -1,0 +1,445 @@
+{
+  "segments": [
+    {
+      "segment_name": "MISSING OR DELETED PHOTO RETRIEVAL",
+      "segment_description": "Users who report that photos or entire albums disappear after updates or that downloads fail, leaving them unable to view or recover their images.",
+      "pain_points": [
+        "Photos missing from albums after update",
+        "Download button unresponsive",
+        "Locked folder emptied without warning",
+        "Complete loss of access to personal library"
+      ],
+      "themes": [
+        "Post‑update data loss",
+        "Unrecoverable deletions",
+        "Download failures"
+      ],
+      "sentiment": "Highly Frustrated",
+      "additional_details": "Most complaints occur after a recent app update and are accompanied by uninstall‑reinstall attempts that do not resolve the issue.",
+      "dominant_failure_points": [
+        "Missing Photos",
+        "Download Failure"
+      ],
+      "dominant_behaviours": [
+        "reinstall app",
+        "search for missing items in albums",
+        "attempted manual download"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_2",
+        "GLOBAL_8",
+        "GLOBAL_15"
+      ]
+    },
+    {
+      "segment_name": "FACE GROUPING & TAGGING FAILURES",
+      "segment_description": "Users who rely on facial recognition for organization but experience inaccurate grouping, missing faces, or inability to manually tag.",
+      "pain_points": [
+        "Faces incorrectly grouped or omitted",
+        "People disappear from face albums",
+        "No option to manually add or correct faces"
+      ],
+      "themes": [
+        "Unreliable AI face detection",
+        "Loss of previously saved face data"
+      ],
+      "sentiment": "Frustrated",
+      "additional_details": "Complaints span both blurred and clear faces, indicating inconsistency in the underlying model.",
+      "dominant_failure_points": [
+        "Face Recognition",
+        "Manual Tagging Absence"
+      ],
+      "dominant_behaviours": [
+        "review face albums",
+        "search by person name",
+        "attempt manual correction"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_3",
+        "GLOBAL_13",
+        "GLOBAL_14"
+      ]
+    },
+    {
+      "segment_name": "SEARCH & ORGANIZATIONAL NAVIGATION BREAKAGE",
+      "segment_description": "Users unable to locate photos via search or album navigation, often citing UI changes that hide or reorder content.",
+      "pain_points": [
+        "Search returns no results for known terms (e.g., address)",
+        "Albums and collections rearranged after updates",
+        "Inability to multi‑select by date or month"
+      ],
+      "themes": [
+        "Search engine regression",
+        "UI layout churn",
+        "Selection tool removal"
+      ],
+      "sentiment": "Highly Frustrated",
+      "additional_details": "These users frequently mention the frequency of updates as a catalyst for the problem.",
+      "dominant_failure_points": [
+        "Search Functionality",
+        "Multi‑select UI"
+      ],
+      "dominant_behaviours": [
+        "keyword entry in search bar",
+        "manual scrolling through albums",
+        "attempt date‑range selection"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_18",
+        "GLOBAL_19",
+        "GLOBAL_21"
+      ]
+    },
+    {
+      "segment_name": "EDIT/SHARE AND DIRECT ACCESS FAILURES",
+      "segment_description": "Users reporting that core actions—editing, sharing, or opening the photo library—are blocked or crash.",
+      "pain_points": [
+        "Edit and share buttons non‑functional",
+        "App refuses to open the photo library",
+        "Cannot download or view individual images"
+      ],
+      "themes": [
+        "Core feature breakage",
+        "Access denial after update"
+      ],
+      "sentiment": "Highly Frustrated",
+      "additional_details": "Often paired with low star ratings (1‑star) and immediate calls for a fix.",
+      "dominant_failure_points": [
+        "Edit/Share Buttons",
+        "Library Access"
+      ],
+      "dominant_behaviours": [
+        "tap edit/share icons",
+        "attempt to open gallery view",
+        "download attempt"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_2",
+        "GLOBAL_8",
+        "GLOBAL_11"
+      ]
+    },
+    {
+      "segment_name": "STORAGE MANAGEMENT & INFORMATION OPACITY",
+      "segment_description": "Users confused by hidden file‑size data and destructive “Free up space” actions that permanently erase high‑quality originals.",
+      "pain_points": [
+        "File size shown only as “Backed up”, no actual size",
+        "Free‑up‑space option deletes original high‑quality files",
+        "Lack of warnings or clear information before deletion"
+      ],
+      "themes": [
+        "Opaque storage metrics",
+        "Irreversible data loss"
+      ],
+      "sentiment": "Frustrated",
+      "additional_details": "These users tend to be more storage‑conscious and notice the issue when attempting to manage space.",
+      "dominant_failure_points": [
+        "Hidden File Size",
+        "Destructive Free‑up Space"
+      ],
+      "dominant_behaviours": [
+        "view file details",
+        "use free‑up‑space tool",
+        "check storage usage"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_13",
+        "GLOBAL_21"
+      ]
+    },
+    {
+      "segment_name": "EXPORT/LOCAL TRANSFER STRUGGLERS",
+      "segment_description": "Older or low‑tech users who cannot move backed‑up photos from Google Photos to local device storage or SD cards.",
+      "pain_points": [
+        "No clear export path",
+        "Too many steps to copy to device",
+        "Uncertainty about storage limits"
+      ],
+      "themes": [
+        "Manual export difficulty",
+        "Device storage awareness"
+      ],
+      "sentiment": "Highly Frustrated",
+      "additional_details": "User explicitly mentions being an octogenarian and asks for step count; rating 1 indicates strong dissatisfaction.",
+      "dominant_failure_points": [
+        "A"
+      ],
+      "dominant_behaviours": [
+        "manual sharing to device",
+        "searching for export options"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_25"
+      ]
+    },
+    {
+      "segment_name": "MISSING MEDIA & SYNC GAPS",
+      "segment_description": "Users who rely on automatic backup but find photos, videos, or recordings missing, experience delayed sync, or see deletions propagate unintentionally.",
+      "pain_points": [
+        "Media disappears after backup",
+        "Deletes on phone erase cloud copies",
+        "Uploads to other apps are very slow",
+        "Unable to clear local storage after backup"
+      ],
+      "themes": [
+        "Sync latency",
+        "Unexpected global deletion",
+        "Storage cleanup failure"
+      ],
+      "sentiment": "Highly Frustrated",
+      "additional_details": "All records have a 1‑star rating and mention concrete loss or delay of content.",
+      "dominant_failure_points": [
+        "C",
+        "H",
+        "I",
+        "J"
+      ],
+      "dominant_behaviours": [
+        "relying on auto‑backup",
+        "expecting instant cross‑device availability",
+        "trying to free device space after backup"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_27",
+        "GLOBAL_45",
+        "GLOBAL_46",
+        "GLOBAL_47"
+      ]
+    },
+    {
+      "segment_name": "BULK MANAGEMENT & UI LIMITATIONS",
+      "segment_description": "Users who need efficient multi‑select, grid consistency, or in‑album search but encounter missing UI controls or buggy behavior.",
+      "pain_points": [
+        "Grid view uneven",
+        "No multi‑delete or bulk selection",
+        "Missing in‑album search and persistent scroll memory"
+      ],
+      "themes": [
+        "UI inconsistency",
+        "Missing bulk actions",
+        "Navigation memory"
+      ],
+      "sentiment": "Frustrated",
+      "additional_details": "Two records are 1‑star (critical bugs) and one is 4‑star (feature request), indicating mixed but overall negative perception of UI limits.",
+      "dominant_failure_points": [
+        "B",
+        "D",
+        "G"
+      ],
+      "dominant_behaviours": [
+        "scrolling through albums",
+        "trying to select many items",
+        "searching by filename within albums"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_26",
+        "GLOBAL_32",
+        "GLOBAL_35"
+      ]
+    },
+    {
+      "segment_name": "SATISFIED POWER USERS",
+      "segment_description": "Users who experience the app primarily as a reliable backup and memory‑keeping service and do not report retrieval failures.",
+      "pain_points": [],
+      "themes": [
+        "Reliability",
+        "AI‑enhanced recovery",
+        "Positive storage experience"
+      ],
+      "sentiment": "Satisfied",
+      "additional_details": "Ratings are 4–5 stars, with comments praising recovery of lost photos, smooth performance, and overall happiness.",
+      "dominant_failure_points": [],
+      "dominant_behaviours": [
+        "passive viewing of backed‑up photos",
+        "occasionally using AI suggestions",
+        "trusting long‑term cloud storage"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_28",
+        "GLOBAL_29",
+        "GLOBAL_30",
+        "GLOBAL_31",
+        "GLOBAL_34",
+        "GLOBAL_36",
+        "GLOBAL_37",
+        "GLOBAL_39",
+        "GLOBAL_40",
+        "GLOBAL_41",
+        "GLOBAL_42",
+        "GLOBAL_43",
+        "GLOBAL_44",
+        "GLOBAL_48",
+        "GLOBAL_49"
+      ]
+    },
+    {
+      "segment_name": "WI‑FI DEPENDENT RETRIEVAL",
+      "segment_description": "Users who can only view photos when connected to Wi‑Fi, blocking offline access to memories",
+      "pain_points": [
+        "App requires internet to display stored photos",
+        "No offline caching for search results"
+      ],
+      "themes": [
+        "Connectivity limitation",
+        "Offline access expectations"
+      ],
+      "sentiment": "Frustrated",
+      "additional_details": "Often expressed as surprise that local photos need network access despite being stored in the cloud",
+      "dominant_failure_points": [
+        "C"
+      ],
+      "dominant_behaviours": [
+        "attempting offline view",
+        "checking network settings"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_51"
+      ]
+    },
+    {
+      "segment_name": "SEARCH UI INTERFERENCE (GEMINI POPUP)",
+      "segment_description": "Users blocked from initiating a search because the Gemini for Photos popup overlays the search icon",
+      "pain_points": [
+        "Accidental clicks on deceptive popup",
+        "Search button hidden"
+      ],
+      "themes": [
+        "UI deception",
+        "Search blockage"
+      ],
+      "sentiment": "Angry",
+      "additional_details": "Described as malware‑like behavior; user changed rating after years of satisfaction",
+      "dominant_failure_points": [
+        "D"
+      ],
+      "dominant_behaviours": [
+        "tapping search icon",
+        "dismissal of popups"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_59"
+      ]
+    },
+    {
+      "segment_name": "MISSING FACE‑GROUP SEARCH FEATURE",
+      "segment_description": "Users unable to see or use face group clusters after a recent UI update, limiting photo discovery by person",
+      "pain_points": [
+        "Face groups disappeared",
+        "Cannot locate people via face groups"
+      ],
+      "themes": [
+        "Feature regression",
+        "Search by facial recognition"
+      ],
+      "sentiment": "Disappointed",
+      "additional_details": "User still praises overall design but requests restoration of face groups",
+      "dominant_failure_points": [
+        "E"
+      ],
+      "dominant_behaviours": [
+        "searching by name",
+        "browsing face groups"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_73"
+      ]
+    },
+    {
+      "segment_name": "DUPLICATE PHOTO OVERLOAD",
+      "segment_description": "Users encounter automatically generated duplicate images that clutter search results and storage",
+      "pain_points": [
+        "Annoying duplicate pictures",
+        "Hard to find original"
+      ],
+      "themes": [
+        "Duplication bug",
+        "Search noise"
+      ],
+      "sentiment": "Annoyed",
+      "additional_details": "Duplicates appear without user action, affecting retrieval clarity",
+      "dominant_failure_points": [
+        "F"
+      ],
+      "dominant_behaviours": [
+        "manual scrolling through duplicates",
+        "using filters to isolate originals"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_52"
+      ]
+    },
+    {
+      "segment_name": "SHARE‑DIRECT FAILURE",
+      "segment_description": "Users cannot share photos directly from Google Photos to other apps (e.g., Google Voice, WhatsApp)",
+      "pain_points": [
+        "Missing native share option",
+        "Need to copy photo before sharing"
+      ],
+      "themes": [
+        "Sharing workflow breakage",
+        "Retrieval bottleneck"
+      ],
+      "sentiment": "Frustrated",
+      "additional_details": "Workaround requires extra steps, increasing friction",
+      "dominant_failure_points": [
+        "G"
+      ],
+      "dominant_behaviours": [
+        "tapping share button",
+        "navigating to third‑party app"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_64"
+      ]
+    },
+    {
+      "segment_name": "DATA‑LOSS ANXIETY",
+      "segment_description": "Users express urgency to recover all their stored photos, implying they suspect missing or inaccessible images",
+      "pain_points": [
+        "Uncertainty about missing photos",
+        "Desire for complete recovery"
+      ],
+      "themes": [
+        "Data reliability",
+        "Retrieval confidence"
+      ],
+      "sentiment": "Anxious",
+      "additional_details": "No specific error given; sentiment driven by fear of loss",
+      "dominant_failure_points": [
+        "H"
+      ],
+      "dominant_behaviours": [
+        "searching for specific events",
+        "checking albums for gaps"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_69"
+      ]
+    },
+    {
+      "segment_name": "PERSISTENT UPDATE PROMPTS",
+      "segment_description": "Users repeatedly see update requests that cannot be completed, hindering app use and search access",
+      "pain_points": [
+        "Update dialog appears constantly",
+        "No update option in system"
+      ],
+      "themes": [
+        "Update fatigue",
+        "App stability"
+      ],
+      "sentiment": "Irritated",
+      "additional_details": "Both records mention redundant update prompts and inability to locate the update in settings",
+      "dominant_failure_points": [
+        "I"
+      ],
+      "dominant_behaviours": [
+        "attempting to open update screen",
+        "ignoring prompts"
+      ],
+      "evidence_record_ids": [
+        "GLOBAL_53",
+        "GLOBAL_68"
+      ]
+    }
+  ]
+}

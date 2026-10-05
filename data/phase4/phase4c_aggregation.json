@@ -1,0 +1,362 @@
+{
+  "total_records": 111,
+  "high_confidence_records": 81,
+  "failure_point_distribution": {
+    "C": {
+      "count": 36,
+      "percentage": "32.43"
+    },
+    "D": {
+      "count": 46,
+      "percentage": "41.44"
+    },
+    "A": {
+      "count": 10,
+      "percentage": "9.01"
+    },
+    "G": {
+      "count": 54,
+      "percentage": "48.65"
+    },
+    "F": {
+      "count": 54,
+      "percentage": "48.65"
+    },
+    "B": {
+      "count": 19,
+      "percentage": "17.12"
+    },
+    "E": {
+      "count": 9,
+      "percentage": "8.11"
+    }
+  },
+  "failure_cooccurrence": {
+    "C+D": {
+      "count": 17,
+      "percentage": "15.32"
+    },
+    "A+G": {
+      "count": 6,
+      "percentage": "5.41"
+    },
+    "D+F": {
+      "count": 25,
+      "percentage": "22.52"
+    },
+    "D+G": {
+      "count": 19,
+      "percentage": "17.12"
+    },
+    "F+G": {
+      "count": 30,
+      "percentage": "27.03"
+    },
+    "C+G": {
+      "count": 10,
+      "percentage": "9.01"
+    },
+    "C+F": {
+      "count": 11,
+      "percentage": "9.91"
+    },
+    "D+E": {
+      "count": 4,
+      "percentage": "3.60"
+    },
+    "E+G": {
+      "count": 4,
+      "percentage": "3.60"
+    },
+    "A+B": {
+      "count": 4,
+      "percentage": "3.60"
+    },
+    "A+D": {
+      "count": 1,
+      "percentage": "0.90"
+    },
+    "A+F": {
+      "count": 5,
+      "percentage": "4.50"
+    },
+    "B+D": {
+      "count": 4,
+      "percentage": "3.60"
+    },
+    "B+F": {
+      "count": 12,
+      "percentage": "10.81"
+    },
+    "B+G": {
+      "count": 6,
+      "percentage": "5.41"
+    },
+    "C+E": {
+      "count": 1,
+      "percentage": "0.90"
+    },
+    "E+F": {
+      "count": 1,
+      "percentage": "0.90"
+    },
+    "B+C": {
+      "count": 6,
+      "percentage": "5.41"
+    },
+    "A+E": {
+      "count": 1,
+      "percentage": "0.90"
+    },
+    "A+C": {
+      "count": 1,
+      "percentage": "0.90"
+    }
+  },
+  "outcome_distribution": {
+    "not_found": 39,
+    "unknown": 11,
+    "abandoned": 54,
+    "found": 7
+  },
+  "frustration_distribution": {
+    "high": 82,
+    "medium": 23,
+    "low": 6
+  },
+  "frustration_by_failure": {
+    "C": {
+      "low": 1,
+      "medium": 6,
+      "high": 29,
+      "unknown": 0
+    },
+    "D": {
+      "low": 1,
+      "medium": 5,
+      "high": 40,
+      "unknown": 0
+    },
+    "A": {
+      "low": 0,
+      "medium": 7,
+      "high": 3,
+      "unknown": 0
+    },
+    "G": {
+      "low": 1,
+      "medium": 10,
+      "high": 43,
+      "unknown": 0
+    },
+    "F": {
+      "low": 1,
+      "medium": 5,
+      "high": 48,
+      "unknown": 0
+    },
+    "B": {
+      "low": 1,
+      "medium": 6,
+      "high": 12,
+      "unknown": 0
+    },
+    "E": {
+      "low": 0,
+      "medium": 4,
+      "high": 5,
+      "unknown": 0
+    }
+  },
+  "top_evidence_per_failure": {
+    "C": [
+      {
+        "quote": "I put an address in the search field and nothing useless.",
+        "source": "app_store",
+        "id": "review_18"
+      },
+      {
+        "quote": "Search is absolutely worthless.",
+        "source": "app_store",
+        "id": "review_633"
+      },
+      {
+        "quote": "The search results are worse than how it was on my OG Pixel!",
+        "source": "app_store",
+        "id": "review_885"
+      },
+      {
+        "quote": "Incredibly stupid how it can't find photos from my gallery",
+        "source": "app_store",
+        "id": "review_938"
+      },
+      {
+        "quote": "l can't find what l need",
+        "source": "app_store",
+        "id": "review_964"
+      }
+    ],
+    "D": [
+      {
+        "quote": "I put an address in the search field and nothing useless.",
+        "source": "app_store",
+        "id": "review_18"
+      },
+      {
+        "quote": "Can't find my device photos even if I backed everything up.",
+        "source": "app_store",
+        "id": "review_225"
+      },
+      {
+        "quote": "You star a photo and can't find it elsewhere. It gets filed under collections that doesn't show up everywhere either. Then you run into a stupid folder called favorites. Starred and favorites is the SAME thing.",
+        "source": "app_store",
+        "id": "review_261"
+      },
+      {
+        "quote": "The search results are worse than how it was on my OG Pixel!",
+        "source": "app_store",
+        "id": "review_885"
+      },
+      {
+        "quote": "l can't find what l need",
+        "source": "app_store",
+        "id": "review_964"
+      }
+    ],
+    "A": [
+      {
+        "quote": "I still have old pitchers and videos I can't find",
+        "source": "app_store",
+        "id": "review_117"
+      },
+      {
+        "quote": "can't find anything remotely useful",
+        "source": "app_store",
+        "id": "review_1914"
+      },
+      {
+        "quote": "i cant find it in the home screen",
+        "source": "app_store",
+        "id": "review_2682"
+      },
+      {
+        "quote": "IT LOOKS WEIRD AND VERY CONFUSING TO FIND A PHOTO",
+        "source": "app_store",
+        "id": "review_4596"
+      },
+      {
+        "quote": "can't find the right words",
+        "source": "app_store",
+        "id": "review_4692"
+      }
+    ],
+    "G": [
+      {
+        "quote": "I still have old pitchers and videos I can't find",
+        "source": "app_store",
+        "id": "review_117"
+      },
+      {
+        "quote": "Can't find my device photos even if I backed everything up.",
+        "source": "app_store",
+        "id": "review_225"
+      },
+      {
+        "quote": "You star a photo and can't find it elsewhere. It gets filed under collections that doesn't show up everywhere either. Then you run into a stupid folder called favorites. Starred and favorites is the SAME thing.",
+        "source": "app_store",
+        "id": "review_261"
+      },
+      {
+        "quote": "Incredibly stupid how it can't find photos from my gallery",
+        "source": "app_store",
+        "id": "review_938"
+      },
+      {
+        "quote": "Perhaps there is a way to shut off this feature, but I can't find it.",
+        "source": "app_store",
+        "id": "review_1141"
+      }
+    ],
+    "F": [
+      {
+        "quote": "Can't find my device photos even if I backed everything up.",
+        "source": "app_store",
+        "id": "review_225"
+      },
+      {
+        "quote": "l can't find what l need",
+        "source": "app_store",
+        "id": "review_964"
+      },
+      {
+        "quote": "followed the steps and still can't find what I need.",
+        "source": "app_store",
+        "id": "review_1065"
+      },
+      {
+        "quote": "Perhaps there is a way to shut off this feature, but I can't find it.",
+        "source": "app_store",
+        "id": "review_1141"
+      },
+      {
+        "quote": "The simple act of trying to find a photo on a particular date is impossible.",
+        "source": "app_store",
+        "id": "review_1269"
+      }
+    ],
+    "B": [
+      {
+        "quote": "looked for pinwheel cant find it",
+        "source": "app_store",
+        "id": "review_1335"
+      },
+      {
+        "quote": "can't find anything remotely useful",
+        "source": "app_store",
+        "id": "review_1914"
+      },
+      {
+        "quote": "where are my gallery photos and camera and all my pics are gone I can't find them",
+        "source": "app_store",
+        "id": "review_2155"
+      },
+      {
+        "quote": "my chat historys photo and video can't find.",
+        "source": "app_store",
+        "id": "review_2817"
+      },
+      {
+        "quote": "I can no longer search for SOME family and friends names in label descriptions I've make over many years",
+        "source": "app_store",
+        "id": "review_2984"
+      }
+    ],
+    "E": [
+      {
+        "quote": "I can't find anything everything is not where it used to be",
+        "source": "app_store",
+        "id": "review_1893"
+      },
+      {
+        "quote": "Hard to use, crowded with AI... moments, faces pets. can't find the right folder, it's not user friendly.",
+        "source": "app_store",
+        "id": "review_2193"
+      },
+      {
+        "quote": "I have to open different folders to find a photo because it puts photos in hidden places.",
+        "source": "app_store",
+        "id": "review_2735"
+      },
+      {
+        "quote": "I can't find photos that I'm looking for. they claim it simpler but it was simply enough already.",
+        "source": "app_store",
+        "id": "review_2813"
+      },
+      {
+        "quote": "can't find my photos or videos",
+        "source": "app_store",
+        "id": "review_3744"
+      }
+    ]
+  }
+}

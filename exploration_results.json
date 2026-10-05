@@ -1,0 +1,1685 @@
+{
+  "sentiment": {
+    "positive": 357,
+    "neutral": 62,
+    "negative": 281
+  },
+  "themes": [
+    {
+      "name": "Data Integrity & Safety",
+      "desc": "Users are deeply concerned about photos being deleted, lost, or having their privacy invaded. This includes complaints about auto-cleanup features deleting items and concerns about data security."
+    },
+    {
+      "name": "Frequent & Disruptive UI/UX Changes",
+      "desc": "Frustration with rapid layout updates that change navigation, break muscle memory, or alter core display modes (e.g., grids)."
+    },
+    {
+      "name": "Intelligence Features (AI/Faces) Failures",
+      "desc": "Inaccurate or harmful performance of automated features like face grouping and AI editing, lacking manual overrides."
+    },
+    {
+      "name": "Stability & Functionality Bugs",
+      "desc": "Core app functions such as accessing, sharing, or searching photos failing entirely."
+    },
+    {
+      "name": "App Bloat & Aggressive Monetization",
+      "desc": "Perceptions of the app becoming bloated, forcing unwanted subscriptions, or adding unrequested features."
+    },
+    {
+      "name": "Data Control & Management",
+      "desc": "Users are frustrated by the lack of granular control over their data, specifically regarding deletion from device vs. cloud, moving files to SD cards/galleries, and resolving storage space issues."
+    },
+    {
+      "name": "Stability & Reliability",
+      "desc": "Reports of the app becoming 'buggier' with updates, issues with sync, missing media, and performance bottlenecks like infinite load times."
+    },
+    {
+      "name": "UX/Interface Frustrations",
+      "desc": "Complaints about forced AI features, unnatural grid layouts, and the loss of specific utility buttons/features (like in-album search or fast-scroll scrubbers)."
+    },
+    {
+      "name": "Trust & Privacy",
+      "desc": "Underlying anxieties about data ownership, privacy invasion, and the reliability of the platform for long-term archiving."
+    },
+    {
+      "name": "Emotional Value (Nostalgia/Safety)",
+      "desc": "The primary driver for positive sentiment; users value the app for recovering lost memories and secure long-term storage."
+    },
+    {
+      "name": "App Stability & Updates",
+      "desc": "Issues related to perpetual update loops, perceived bugs, and general app reliability."
+    },
+    {
+      "name": "UX/UI Friction & Deception",
+      "desc": "Complaints about intrusive popups, deceptive ad/feature placement, and clunky workflows for basic tasks like editing or sharing."
+    },
+    {
+      "name": "Feature Regression & Reliability",
+      "desc": "Features that appear broken (Magic Eraser), restricted (Offline viewing), or removed by updates (Face Groups)."
+    },
+    {
+      "name": "Integration & Compatibility",
+      "desc": "Issues involving how photos interact with other apps (sharing, cropping) and general app usability complexities."
+    },
+    {
+      "name": "Data Management & Privacy",
+      "desc": "Issues related to storage limits, accidental data loss via 'Free up space', inability to bulk-delete duplicates, and concerns about folder organization and privacy control."
+    },
+    {
+      "name": "Stability & Functionality",
+      "desc": "Bugs affecting core features such as photos not showing, missing AI tools after updates, and recovery failures."
+    },
+    {
+      "name": "User Experience & Communication",
+      "desc": "Complaints about interface elements like excessive popups and lack of transparency in app behavior."
+    },
+    {
+      "name": "Data Integrity & Syncing",
+      "desc": "Users reporting lost photos, failed uploads, missing albums, and ghost images, indicating core storage and synchronization failures."
+    },
+    {
+      "name": "App Stability & Performance",
+      "desc": "Crashes, infinite loops, slowness, and spam notifications impacting daily usability."
+    },
+    {
+      "name": "User Experience & Navigation",
+      "desc": "Feedback describing the interface as confusing, intrusive, or difficult to navigate, particularly regarding editing tools and memory features."
+    },
+    {
+      "name": "Privacy & Permissions",
+      "desc": "Strong negative sentiment regarding the app's demand for permissions that users feel are unnecessary or overly 'nosy' compared to competitors."
+    },
+    {
+      "name": "Trust & Brand Sentiment",
+      "desc": "A significant portion of negative reviews reflect a broader distrust of Google as a corporation, with users accusing the company of lying, forced updates, and prioritizing profit over user experience."
+    },
+    {
+      "name": "Feature Intrusion & Aggression",
+      "desc": "Complaints about ads, AI features (Gemini), and other tools (Quick Edit, RCS) that users feel are forced upon them or do not respect their choices to disable them."
+    },
+    {
+      "name": "Performance & Stability",
+      "desc": "Issues regarding speed (loading/downloading), compatibility, and features not working as intended."
+    },
+    {
+      "name": "Usability & UX",
+      "desc": "Criticism of design choices, such as the organization of photos, lack of direct album-to-movie functionality, and deficiencies in security features like password protection for locked folders."
+    },
+    {
+      "name": "AI & Feature Intrusiveness",
+      "desc": "Complaints regarding aggressive prompts for new AI tools (Gemini) and automated content creation/suggestions that users feel are pushed without consent."
+    },
+    {
+      "name": "Organization & File Management",
+      "desc": "Issues with how photos are stored, organized, and displayed, including lack of nesting, poor sorting options, and confusion about where files are actually saved."
+    },
+    {
+      "name": "Search & Retrieval Accuracy",
+      "desc": "Frustrations with the app's ability to find specific people, subjects, or text within photos, often returning irrelevant or incomplete results."
+    },
+    {
+      "name": "Editing Capabilities",
+      "desc": "Limitations in the editing workflow, specifically regarding non-destructive editing (revert issues) and the labor-intensive nature of tool-based edits like background removal."
+    },
+    {
+      "name": "Storage & Performance",
+      "desc": "Concerns about running out of storage space and general app behavior."
+    },
+    {
+      "name": "Data Visibility & Search",
+      "desc": "Users struggling to find specific photos, seeing photos that shouldn't be there, or encountering error messages blocking content."
+    },
+    {
+      "name": "Feature Degradation & Regressions",
+      "desc": "Complaints about specific tools (like Magic Eraser) no longer working or features becoming less useful over time."
+    },
+    {
+      "name": "User Experience & Customization",
+      "desc": "Lack of control over how photos are organized (dates vs. events), unwanted auto-enhancements, and UI clutter."
+    },
+    {
+      "name": "Privacy & Security Trust",
+      "desc": "Deep-seated distrust regarding data handling, accusations of malware, and concerns about local data visibility."
+    },
+    {
+      "name": "Data Integrity & Privacy",
+      "desc": "User anxieties about photos being deleted, storage limits, forced app integration, and excessive data monitoring by Google."
+    },
+    {
+      "name": "Feature Requests & Organization",
+      "desc": "Requests for better management tools, such as duplicate detection, content-based album recommendations, and fixing sharing bugs."
+    },
+    {
+      "name": "Data Reliability & Security",
+      "desc": "Concerns regarding lost files, unauthorized deletions, and access issues."
+    },
+    {
+      "name": "UI/UX & Navigation Changes",
+      "desc": "Frustration over new layout designs, loss of granular controls, and visual clutter within the gallery grid."
+    },
+    {
+      "name": "Performance & Storage",
+      "desc": "Complaints about download speeds and storage (GB) usage."
+    },
+    {
+      "name": "Feature Usability",
+      "desc": "Specific bugs or missing capabilities in sharing and creative features."
+    },
+    {
+      "name": "Data Management & Storage",
+      "desc": "Users are frustrated by duplicate files, sync conflicts between cloud and local storage, accidental data loss, and unclear deletion protocols."
+    },
+    {
+      "name": "Privacy & Security",
+      "desc": "Deep concerns about who can see user photos, fear of malicious behavior, and complaints about AI inserting inappropriate content into personal memories."
+    },
+    {
+      "name": "Interface & Navigation",
+      "desc": "Criticism of confusing terminology, unintuitive folder structures (Starred vs. Favorites), and overall poor usability for managing photo libraries."
+    },
+    {
+      "name": "Data Safety & Reliability",
+      "desc": "Issues involving permanent deletion, loss of access to personal files, and security fears."
+    },
+    {
+      "name": "Feature Regression & Bugs",
+      "desc": "Complaints that specific tools (editing, stabilization, metadata) broke or disappeared after recent updates."
+    },
+    {
+      "name": "Negative CX / Trust Erosion",
+      "desc": "Users feeling tricked by auto-organization, storage fee changes, or feeling that their agency over data is being removed."
+    },
+    {
+      "name": "Nostalgia & Emotional Connection",
+      "desc": "Positive sentiment tied to the app's utility as a memory bank for families and personal history."
+    },
+    {
+      "name": "Data Safety & Trust",
+      "desc": "Users express severe anxiety about unauthorized access, accidental deletion of local files, and perceived vendor lock-in practices."
+    },
+    {
+      "name": "UI/UX Control & Layout",
+      "desc": "Complaints regarding the lack of choice in grid layout (dynamic vs. static sizes) and inability to customize view options."
+    },
+    {
+      "name": "Image & Video Quality",
+      "desc": "Issues related to degradation of photo quality upon upload and corruption of edited files."
+    },
+    {
+      "name": "Feature Functionality & Usability",
+      "desc": "Specific bugs in downloading, metadata handling (dates), and missing controls (auto-play)."
+    },
+    {
+      "name": "Usability & Control",
+      "desc": "Users feel the app takes too much control over their data, such as automatic album shuffling, persistent backup prompts, and lack of basic functions like renaming."
+    },
+    {
+      "name": "Redundancy & Preference",
+      "desc": "Users perceive the app as unnecessary clutter or inferior to their existing stock gallery or other alternatives."
+    },
+    {
+      "name": "Feature Gap & UX Requests",
+      "desc": "Requests for specific missing features like local/synced filters and improvements to editing tools."
+    },
+    {
+      "name": "Data Integrity & Recovery",
+      "desc": "Users experiencing missing photos, failed video backups, and issues restoring deleted items."
+    },
+    {
+      "name": "Forced Features & Syncing",
+      "desc": "Complaints about automatic backups, forced cloud storage usage, and inability to stop the app from overwriting local files."
+    },
+    {
+      "name": "Unwanted UI/UX Changes",
+      "desc": "Frustration over new display formats (aspect ratio), automated edits (captions/music), and persistent promotional prompts for backup services."
+    },
+    {
+      "name": "System Integration & Dependency",
+      "desc": "Complaints that the app is considered 'bloatware' and that core system functions like the camera are coupled with this application."
+    },
+    {
+      "name": "General Satisfaction",
+      "desc": "Users expressing positive sentiment regarding ease of use, storage capacity, and general enjoyment of the app."
+    },
+    {
+      "name": "UI/UX & Layout",
+      "desc": "Issues related to visual presentation, such as inconsistent thumbnail sizes and navigation difficulties."
+    },
+    {
+      "name": "Features & Functionality",
+      "desc": "Complaints about specific tool behaviors, including broken face grouping, unwanted editing artifacts, and inflexible customization options."
+    },
+    {
+      "name": "Data Management & Accessibility",
+      "desc": "Critical issues involving data loss, inability to access media, and rigid deletion policies that link cloud and local storage."
+    },
+    {
+      "name": "Reliability & Stability",
+      "desc": "Problems with automated processes like background syncing and service reliability (printing)."
+    },
+    {
+      "name": "Trust & Marketing",
+      "desc": "Discrepancy between advertised capabilities (post-deletion recovery) and actual app performance."
+    },
+    {
+      "name": "Reliability & Data Integrity",
+      "desc": "Users report missing photos, lost albums, and storage discrepancies, leading to a loss of trust in the service's ability to keep data."
+    },
+    {
+      "name": "Performance & Speed",
+      "desc": "Complaints that the app has become slower, specifically regarding search times, deletion speed, and general responsiveness compared to previous versions."
+    },
+    {
+      "name": "Feature Regression & AI Push",
+      "desc": "Frustration that once-loved features (like Magic Eraser) have been degraded, and general resistance to new AI implementations or the perception that the app is now just a sales/AI platform."
+    },
+    {
+      "name": "UX Friction",
+      "desc": "Issues with basic workflows such as sharing to other apps failing, inability to access local files instantly, and confusing navigation for cloud management."
+    },
+    {
+      "name": "Feature Regression & Removal",
+      "desc": "Users are unhappy about specific utility features being removed (Grid View, Drag-to-Select) or broken (Magic Eraser, Search, Sharing) in recent updates."
+    },
+    {
+      "name": "Data Stability & Integrity",
+      "desc": "Critical concerns regarding data loss, SD card corruption, photos disappearing, and unauthorized deletion, indicating trust issues with the app's handling of user files."
+    },
+    {
+      "name": "Customization & Control",
+      "desc": "Complaints about reduced user control (Widget options, view modes) and perceived lack of agency in how photos are managed or organized."
+    },
+    {
+      "name": "Update Quality",
+      "desc": "Specific resentment towards the most recent updates causing bugs, performance drops, or destructive side effects."
+    },
+    {
+      "name": "Miscellaneous/Noise",
+      "desc": "Reviews containing irrelevant typos, gibberish, unrelated topics (financial loans), or vague positive feedback that does not contribute to product insight."
+    },
+    {
+      "name": "UI/UX Degradation",
+      "desc": "Users are frustrated with layout changes, visual bugs, and the removal of previously available features/interactions."
+    },
+    {
+      "name": "Search & Organization",
+      "desc": "Complaints regarding the accuracy of the search function and the ability to efficiently find or manage specific media files."
+    },
+    {
+      "name": "Storage & Subscription Costs",
+      "desc": "Negative sentiment around storage notification pressure, forced subscription upgrades, and the cost of keeping media history."
+    },
+    {
+      "name": "Connectivity & Reliability",
+      "desc": "Issues with the app requiring internet to function correctly or failing to restore data/icons after device changes."
+    },
+    {
+      "name": "Billing & Storage Management",
+      "desc": "Users are frustrated by perceived coercion regarding storage purchases, unauthorized bank deductions, buggy storage calculations, and threats related to email blocking."
+    },
+    {
+      "name": "UX & Interface Design",
+      "desc": "Complaints about the new UI being a downgrade, along with overly aggressive app update notifications."
+    },
+    {
+      "name": "Core Functionality & Integration",
+      "desc": "Issues with sharing media to email, inability to view RAW files, and limits on metadata (location) tagging."
+    },
+    {
+      "name": "Trust & Personalization Features",
+      "desc": "Positive feedback on security, privacy, and AI-generated features like video creation with music."
+    },
+    {
+      "name": "Data Integrity & Security",
+      "desc": "Critical failures related to missing, auto-deleted, or inaccessible photos and videos."
+    },
+    {
+      "name": "Feature Usability & Onboarding",
+      "desc": "Complaints about workflow friction, permission loops, and confusing interfaces for basic tasks."
+    },
+    {
+      "name": "AI Features",
+      "desc": "Issues regarding the functionality of AI tools (eraser) and aggressive promotion of AI subscription/features."
+    },
+    {
+      "name": "Feature Changes & UI Control",
+      "desc": "Complaints about the removal of specific editing tools (warp/frame) in favor of AI, lack of customizability in Collections (hiding/resizing folders), and frustration with frequent updates."
+    },
+    {
+      "name": "General Utility",
+      "desc": "Positive feedback highlighting ease of use, storage capacity, and reliability for basic record-keeping and media storage."
+    },
+    {
+      "name": "Software Stability & Updates",
+      "desc": "Complaints regarding frequent updates that break existing functionality, such as download bugs and removal of tools like Magic Eraser."
+    },
+    {
+      "name": "User Control & Autonomy",
+      "desc": "Users feel a lack of control over their data, citing automatic uploads, inability to modify tags, and unwanted AI interventions."
+    },
+    {
+      "name": "Accessibility & Organization",
+      "desc": "Difficulties in finding specific photos, navigating folders, and limited storage options."
+    },
+    {
+      "name": "Feature Changes",
+      "desc": "Dissatisfaction with changes to service partnerships (printing) and the introduction of AI features that users perceive as intrusive or restrictive."
+    },
+    {
+      "name": "Buggy Core Functionality",
+      "desc": "Issues with fundamental actions such as multi-selecting, sending photos, and face detection resets."
+    },
+    {
+      "name": "UX/UI Clutter",
+      "desc": "Complaints about the interface becoming over-complicated, bloated, and difficult to navigate."
+    },
+    {
+      "name": "Storage & Permissions",
+      "desc": "Frustration regarding storage limits and the app's aggressive or broken permission management regarding folder access."
+    },
+    {
+      "name": "Usability & Organization",
+      "desc": "Complaints regarding the loss of user-friendliness, lack of granular folder structures, and inefficient labeling workflows."
+    },
+    {
+      "name": "Privacy & Data Control",
+      "desc": "Concerns about AI features, data being synced against the user's will, dark patterns regarding search/uninstall, and unwanted content appearing in the gallery."
+    },
+    {
+      "name": "Feature Annoyances",
+      "desc": "Specific complaints about automated edits or additions, such as forced music overlays on videos."
+    },
+    {
+      "name": "Privacy & Trust Issues",
+      "desc": "Alarming AI usage where the app recognizes clothing or sensitive photos, leading users to feel staked out and no longer safe."
+    },
+    {
+      "name": "Deteriorating Core Functionality",
+      "desc": "Complaints about the app making core actions (searching, viewing details, editing) harder, slower, or broken compared to older versions."
+    },
+    {
+      "name": "Reliability & Data Loss",
+      "desc": "Severe data management failures where users report entire photo/video collections disappearing or being over-automatically deleted."
+    },
+    {
+      "name": "Unwanted Feature Overload",
+      "desc": "Frustration with 'smart' and social-media-like additions (memories, stickers, pop-ups) that disrupt a simple photo gallery experience without effective toggles."
+    },
+    {
+      "name": "UI/UX Changes & Layout",
+      "desc": "Users are strongly complaining about the new grid view (3/5 across with random large tiles) and general un-friendliness of the latest updates."
+    },
+    {
+      "name": "AI & Feature Stability",
+      "desc": "Criticism regarding AI interventions (face labeling failures, 'AI killed the app') and bugs in new video/creation tools."
+    },
+    {
+      "name": "Core Functionality & Syncing",
+      "desc": "Issues with basic operations like sharing, syncing all photos/folders, opening media, and local storage management."
+    },
+    {
+      "name": "Data Management",
+      "desc": "Concerns about how photos are stored, filed, and especially the logic behind deletion from albums vs. main gallery."
+    },
+    {
+      "name": "Usability & Interface",
+      "desc": "Complaints about how difficult it is to manage data (deleting, account switches) and criticism of the UI/UX flow."
+    },
+    {
+      "name": "Feature Gaps",
+      "desc": "Missing tools for user needs, such as advanced editing options or AI-driven organization helpers."
+    },
+    {
+      "name": "Content & Personalization",
+      "desc": "Frustration with automatic content like the 'What's New' notes and the quality of music chosen for memories."
+    },
+    {
+      "name": "Storage & Management",
+      "desc": "Concerns about storage limits and the ease of finding/managing existing photos."
+    }
+  ],
+  "pain_points": [
+    {
+      "issue": "Photos or albums disappearing/not syncing",
+      "frequency": 5
+    },
+    {
+      "issue": "Aggressive ads and unwanted features (Gemini, Quick Edit, RCS)",
+      "frequency": 4
+    },
+    {
+      "issue": "Feature regression after updates (photo editing save, video stabilization, erase feature, metadata消失)",
+      "frequency": 4
+    },
+    {
+      "issue": "Coercive storage billing/scams (unauthorized deductions, threats to block emails if not paid/purchased)",
+      "frequency": 4
+    },
+    {
+      "issue": "Inconvenient UI/UX changes (e.g., forcing photos into albums, intrusive pop-ups, unwanted sorting)",
+      "frequency": 4
+    },
+    {
+      "issue": "Photos or albums deleted/missing after update",
+      "frequency": 3
+    },
+    {
+      "issue": "Face grouping/recognition failures and lack of manual tagging",
+      "frequency": 3
+    },
+    {
+      "issue": "Performance degradation and bugs (infinite loading, slow uploads, app bugginess)",
+      "frequency": 3
+    },
+    {
+      "issue": "Loss or deletion of photos without warning",
+      "frequency": 3
+    },
+    {
+      "issue": "Photos deleted permanently without confirmation or undo option (Free Up Space feature)",
+      "frequency": 3
+    },
+    {
+      "issue": "Photos/Albums missing, disappearing, or inaccessible locally",
+      "frequency": 3
+    },
+    {
+      "issue": "Dynamic photos displayed at different sizes in the grid (lack of uniformity/toggle to disable)",
+      "frequency": 3
+    },
+    {
+      "issue": "Performance issues (slow, blank images, crashing)",
+      "frequency": 3
+    },
+    {
+      "issue": "Inability to access or view photos",
+      "frequency": 2
+    },
+    {
+      "issue": "Erratic layout changes (grid to squares) and UI displacement",
+      "frequency": 2
+    },
+    {
+      "issue": "Features broken after recent updates (editing, sharing, search)",
+      "frequency": 2
+    },
+    {
+      "issue": "Multiple file management options missing or broken (delete/clear storage)",
+      "frequency": 2
+    },
+    {
+      "issue": "UI/UX changes breaking core features (grid layout, AI forced on)",
+      "frequency": 2
+    },
+    {
+      "issue": "Recurring update prompts that are not actionable or resolvable",
+      "frequency": 2
+    },
+    {
+      "issue": "Edited photos become incompatible/corrupt when sharing to external apps (Messages, etc.)",
+      "frequency": 2
+    },
+    {
+      "issue": "App crashes, freezes, or becomes unusable",
+      "frequency": 2
+    },
+    {
+      "issue": "Intrusive or excessive permission requests",
+      "frequency": 2
+    },
+    {
+      "issue": "Difficulty transferring or accessing photos on Android",
+      "frequency": 2
+    },
+    {
+      "issue": "App performance issues (slowness, broken sharing/editing)",
+      "frequency": 2
+    },
+    {
+      "issue": "Frequent and large app updates",
+      "frequency": 2
+    },
+    {
+      "issue": "Privacy concerns and spyware allegations",
+      "frequency": 2
+    },
+    {
+      "issue": "Aggressive upselling/prompts for Gemini AI",
+      "frequency": 2
+    },
+    {
+      "issue": "Photos not visible or searchable due to settings/configuration errors",
+      "frequency": 2
+    },
+    {
+      "issue": "Photos deleted despite being backed up / forced integration with device storage",
+      "frequency": 2
+    },
+    {
+      "issue": "Persistent or buggy app update notifications",
+      "frequency": 2
+    },
+    {
+      "issue": "Lack of tools for organizing (duplicates, albums, non-albumed photos)",
+      "frequency": 2
+    },
+    {
+      "issue": "Inaccessible or lost device photos despite backups",
+      "frequency": 2
+    },
+    {
+      "issue": "Unwanted new grid layouts (uneven grid/auto-enlarged photos)",
+      "frequency": 2
+    },
+    {
+      "issue": "Security concerns and privacy fears regarding third-party visibility of photos",
+      "frequency": 2
+    },
+    {
+      "issue": "Photos unexpectedly disappearing or reappearing",
+      "frequency": 2
+    },
+    {
+      "issue": "Files not loading, saving, or downloading properly; endless buffering",
+      "frequency": 2
+    },
+    {
+      "issue": "App stability issues (crashes, permission loops, stuck on launch)",
+      "frequency": 2
+    },
+    {
+      "issue": "Aggressive or persistent backup prompts/notifications",
+      "frequency": 2
+    },
+    {
+      "issue": "App feels unnecessary or redundant alongside stock gallery",
+      "frequency": 2
+    },
+    {
+      "issue": "Unwanted automatic modifications to albums or settings",
+      "frequency": 2
+    },
+    {
+      "issue": "Search functionality is unreliable or fails to return results",
+      "frequency": 2
+    },
+    {
+      "issue": "Photos are missing or appear to be deleted/lost despite backups",
+      "frequency": 2
+    },
+    {
+      "issue": "Performance degradation (slower app, slow delete times)",
+      "frequency": 2
+    },
+    {
+      "issue": "Magic Eraser feature malfunction or regression",
+      "frequency": 2
+    },
+    {
+      "issue": "Search inaccuracy and difficulty locating specific photos",
+      "frequency": 2
+    },
+    {
+      "issue": "Unstable or changing app layout/UI causing frustration",
+      "frequency": 2
+    },
+    {
+      "issue": "Overly frequent or intrusive update notifications",
+      "frequency": 2
+    },
+    {
+      "issue": "Daily or frequent updates causing instability or annoyance",
+      "frequency": 2
+    },
+    {
+      "issue": "Excessive or unwanted app updates",
+      "frequency": 2
+    },
+    {
+      "issue": "Magic Eraser tool malfunctioning or being removed",
+      "frequency": 2
+    },
+    {
+      "issue": "Difficulty locating photos due to hidden folders or bad organization",
+      "frequency": 2
+    },
+    {
+      "issue": "Negative perception of AI features and censorship/privacy overreach",
+      "frequency": 2
+    },
+    {
+      "issue": "Selecting/Sending multiple photos fails (only sends a few)",
+      "frequency": 2
+    },
+    {
+      "issue": "Broken or useless search functionality",
+      "frequency": 2
+    },
+    {
+      "issue": "Photos or videos automatically/accidentally deleted",
+      "frequency": 2
+    },
+    {
+      "issue": "Overly aggressive and privacy-invasive AI features (e.g., wardrobe creation, suggesting sensitive photos)",
+      "frequency": 2
+    },
+    {
+      "issue": "Disappearance of basic functionality (e.g., photo details, editing options)",
+      "frequency": 2
+    },
+    {
+      "issue": "New grid layout (3 or 5 across) with random huge photos disrupts usability and chronological selection",
+      "frequency": 2
+    },
+    {
+      "issue": "AI features disrupting core functionality (files moving, face labeling, overall utility)",
+      "frequency": 2
+    },
+    {
+      "issue": "Data loss risk with 'Storage Saver/Free up space'",
+      "frequency": 1
+    },
+    {
+      "issue": "Bloatware/Unwanted features (e.g., forced 'Social' album)",
+      "frequency": 1
+    },
+    {
+      "issue": "Poor search functionality",
+      "frequency": 1
+    },
+    {
+      "issue": "Crop tool limitations (forced squares/angles, no free crop)",
+      "frequency": 1
+    },
+    {
+      "issue": "Regression in AI editor performance on newer devices",
+      "frequency": 1
+    },
+    {
+      "issue": "Cloud storage forces local file deletion (bin sync too aggressive)",
+      "frequency": 1
+    },
+    {
+      "issue": "Data loss or sync failures (screen recordings missing, photos not syncing)",
+      "frequency": 1
+    },
+    {
+      "issue": "High app storage footprint",
+      "frequency": 1
+    },
+    {
+      "issue": "Privacy concerns",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of offline viewing options",
+      "frequency": 1
+    },
+    {
+      "issue": "Deceptive UI design leading to accidental feature activation (Gemini popups)",
+      "frequency": 1
+    },
+    {
+      "issue": "Failure to generate duplicates of pictures",
+      "frequency": 1
+    },
+    {
+      "issue": "Magic eraser function non-functional",
+      "frequency": 1
+    },
+    {
+      "issue": "Wifi requirement for basic photo viewing",
+      "frequency": 1
+    },
+    {
+      "issue": "Loss of specific photo search features (Face groups) after update",
+      "frequency": 1
+    },
+    {
+      "issue": "Cumbersome editing workflow (forced saves, annoying delete popups)",
+      "frequency": 1
+    },
+    {
+      "issue": "Lost or missing photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to share directly to specific apps (Voice/WhatsApp)",
+      "frequency": 1
+    },
+    {
+      "issue": "Albums are forced to be stored in the cloud with no offline/local option",
+      "frequency": 1
+    },
+    {
+      "issue": "App is difficult to use or complicated",
+      "frequency": 1
+    },
+    {
+      "issue": "Google Photos fails to display existing photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Excessive popups",
+      "frequency": 1
+    },
+    {
+      "issue": "App automatically enables photo saving/uploading without clear user consent",
+      "frequency": 1
+    },
+    {
+      "issue": "AI features (Magic Editor) missing after app update or reinstall",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of indicator for what is backed up and inability to delete specific photos from cloud easily",
+      "frequency": 1
+    },
+    {
+      "issue": "Lost photos could not be recovered via safe folder",
+      "frequency": 1
+    },
+    {
+      "issue": "Bug in Magic Eraser feature",
+      "frequency": 1
+    },
+    {
+      "issue": "Ghost images or corrupted previews",
+      "frequency": 1
+    },
+    {
+      "issue": "Spam/Nonsense content",
+      "frequency": 1
+    },
+    {
+      "issue": "Storage usage and misleading storage stats",
+      "frequency": 1
+    },
+    {
+      "issue": "Broken face recognition features",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of security options for locked folder (no password/cross-device sync)",
+      "frequency": 1
+    },
+    {
+      "issue": "UI/UX changes (Snapchat-style layout, hiding month breaks)",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to create movies directly from Albums",
+      "frequency": 1
+    },
+    {
+      "issue": "Poor organization and inability to sort folders/by name",
+      "frequency": 1
+    },
+    {
+      "issue": "Inaccurate or limited search results (text/subject/faces)",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to re-edit edited images without reverting to original",
+      "frequency": 1
+    },
+    {
+      "issue": "Uncertainty about photo storage location/retviability",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of nested folder support within albums",
+      "frequency": 1
+    },
+    {
+      "issue": "Storage limits (running out easily)",
+      "frequency": 1
+    },
+    {
+      "issue": "Time-consuming background removal process",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted content creation/suggestions without permission",
+      "frequency": 1
+    },
+    {
+      "issue": "Slow loading times and constant enhancement processing interfering with basic viewing",
+      "frequency": 1
+    },
+    {
+      "issue": "Feature regression: Magic Eraser/Editor tools failing or removed",
+      "frequency": 1
+    },
+    {
+      "issue": "Cluttered UI with unwanted local/unsynced photos mixed with backed-up content",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of control over content arrangement (Events vs. Dates) and audio in Memories",
+      "frequency": 1
+    },
+    {
+      "issue": "Excessive app updates causing disruption",
+      "frequency": 1
+    },
+    {
+      "issue": "Difficulty transferring albums from other devices/platforms",
+      "frequency": 1
+    },
+    {
+      "issue": "Perception of malware/security concerns",
+      "frequency": 1
+    },
+    {
+      "issue": "Privacy concerns regarding data monitoring and sharing with Google",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to share cropped images via email",
+      "frequency": 1
+    },
+    {
+      "issue": "App crashes when deleting photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Low quality/removed AI enhancement features",
+      "frequency": 1
+    },
+    {
+      "issue": "Photos deleted from device without explicit consent",
+      "frequency": 1
+    },
+    {
+      "issue": "Loss of granular selection options (day/week/month)",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted/uncontrollable 'Memories' tiles cluttering main grid",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to easily share photos via SMS/Text",
+      "frequency": 1
+    },
+    {
+      "issue": "Slow download speeds on poor internet connections",
+      "frequency": 1
+    },
+    {
+      "issue": "Excessive storage consumption",
+      "frequency": 1
+    },
+    {
+      "issue": "Feature bugs (Remix feature does not work)",
+      "frequency": 1
+    },
+    {
+      "issue": "Ad experience and conflicting app identity issues",
+      "frequency": 1
+    },
+    {
+      "issue": "Duplicate photo display in Photo tab due to sync issues between cloud and local storage",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted or inappropriate AI-generated content (e.g., sexualized music in memories)",
+      "frequency": 1
+    },
+    {
+      "issue": "Confusing and inconsistent UI/UX terminology (e.g., 'images' vs 'photos', 'starred' vs 'favorites')",
+      "frequency": 1
+    },
+    {
+      "issue": "Panoramic view mode broken for an extended period",
+      "frequency": 1
+    },
+    {
+      "issue": "Accidental permanent deletion from local storage when deleting from cloud",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of batch deletion functionality for large numbers of photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Dependency on internet connection for basic editing features (tint/brightness)",
+      "frequency": 1
+    },
+    {
+      "issue": "App appears installed but is invisible/non-functional on device",
+      "frequency": 1
+    },
+    {
+      "issue": "Create/AI features producing low-quality or undesired outputs",
+      "frequency": 1
+    },
+    {
+      "issue": "Unexpected automatic organization (albums/slideshows created without permission)",
+      "frequency": 1
+    },
+    {
+      "issue": "Storage charges introduced against previous promises",
+      "frequency": 1
+    },
+    {
+      "issue": "Devices/Accounts hacked/Security concerns",
+      "frequency": 1
+    },
+    {
+      "issue": "Slow performance and inability to download own files",
+      "frequency": 1
+    },
+    {
+      "issue": "Spammy update notifications",
+      "frequency": 1
+    },
+    {
+      "issue": "Incompatibility with older Android devices",
+      "frequency": 1
+    },
+    {
+      "issue": "App accesses storage without explicit permission or excessive storage usage for 'memories'",
+      "frequency": 1
+    },
+    {
+      "issue": "Deleting cloud photos also deletes local/device photos without clear warning",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to delete cloud-only photos without wiping them from the device (perceived as hostage tactics)",
+      "frequency": 1
+    },
+    {
+      "issue": "Download issues and interruptions",
+      "frequency": 1
+    },
+    {
+      "issue": "New cropping method is ineffective",
+      "frequency": 1
+    },
+    {
+      "issue": "Editing a copy of a photo corrupts the photo file",
+      "frequency": 1
+    },
+    {
+      "issue": "Photo quality is degraded despite selecting original quality upload",
+      "frequency": 1
+    },
+    {
+      "issue": "No option to stop video auto-play",
+      "frequency": 1
+    },
+    {
+      "issue": "Download progress resets to 0MB if interrupted, wasting data/bandwidth",
+      "frequency": 1
+    },
+    {
+      "issue": "Transferring screenshots changes original date and time",
+      "frequency": 1
+    },
+    {
+      "issue": "Photo file size display lacks precision (only 1 decimal, no KB view)",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to rename files",
+      "frequency": 1
+    },
+    {
+      "issue": "Update installation failures",
+      "frequency": 1
+    },
+    {
+      "issue": "Camera functionality issues (cannot take photos)",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of filter to distinguish local vs. synced photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Excessive ads or potential security concerns (viruses)",
+      "frequency": 1
+    },
+    {
+      "issue": "Glitches in cropping/editing features",
+      "frequency": 1
+    },
+    {
+      "issue": "Videos play with incorrect aspect ratio (landscape video plays vertical)",
+      "frequency": 1
+    },
+    {
+      "issue": "Videos fail to back up",
+      "frequency": 1
+    },
+    {
+      "issue": "Interface and usage have become more difficult",
+      "frequency": 1
+    },
+    {
+      "issue": "Photos not found/deleted or unavailable",
+      "frequency": 1
+    },
+    {
+      "issue": "Constantly auto-backs up deleted photos back onto the phone",
+      "frequency": 1
+    },
+    {
+      "issue": "Forced sync with cloud storage leading to spam for more space",
+      "frequency": 1
+    },
+    {
+      "issue": "App considered bloatware; cannot be replaced by a custom app",
+      "frequency": 1
+    },
+    {
+      "issue": "Fujifilm photo compatibility or handling is disliked",
+      "frequency": 1
+    },
+    {
+      "issue": "Camera app requires Google Photos to be installed",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted automated captions and music added to photos (specifically inappropriate content for deceased family members)",
+      "frequency": 1
+    },
+    {
+      "issue": "Persistent nagging/prompts for the backup service that return after updates",
+      "frequency": 1
+    },
+    {
+      "issue": "Questions regarding video/photo recovery",
+      "frequency": 1
+    },
+    {
+      "issue": "Relevant function (editing) is coupled with unwanted social media features",
+      "frequency": 1
+    },
+    {
+      "issue": "Random large thumbnails disrupting chronological view layout",
+      "frequency": 1
+    },
+    {
+      "issue": "Face detection/groups incorrectly merging different people (e.g., babies or men into one group)",
+      "frequency": 1
+    },
+    {
+      "issue": "Errors preventing the removal of incorrect face groups",
+      "frequency": 1
+    },
+    {
+      "issue": "Unblur feature introduces artifact lines across images",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to personalize Memories music (switch from vocal to instrumental)",
+      "frequency": 1
+    },
+    {
+      "issue": "Loss of access to photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to backup or retrieve deleted files (contrary to marketing claims)",
+      "frequency": 1
+    },
+    {
+      "issue": "Nightmare experience with printing service (navigation, quality, customer service)",
+      "frequency": 1
+    },
+    {
+      "issue": "Background sync/upload runs randomly even when disabled",
+      "frequency": 1
+    },
+    {
+      "issue": "Cannot delete uploaded media from cloud without also deleting it from the device",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to access local photos immediately (must wait for backup)",
+      "frequency": 1
+    },
+    {
+      "issue": "Sharing features to external apps (Gemini, Signal) do not work",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted advertisements",
+      "frequency": 1
+    },
+    {
+      "issue": "Confusion regarding storage usage and device care notifications",
+      "frequency": 1
+    },
+    {
+      "issue": "Negative experience with Magic Eraser/AI features",
+      "frequency": 1
+    },
+    {
+      "issue": "App update problems/crashes",
+      "frequency": 1
+    },
+    {
+      "issue": "App download or installation failures",
+      "frequency": 1
+    },
+    {
+      "issue": "Removal of Grid View option",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to view content offline (requires data)",
+      "frequency": 1
+    },
+    {
+      "issue": "Widget lacks album/favorites customization options",
+      "frequency": 1
+    },
+    {
+      "issue": "Photos appearing missing or unfindable",
+      "frequency": 1
+    },
+    {
+      "issue": "Significant degradation of AI search quality in latest update",
+      "frequency": 1
+    },
+    {
+      "issue": "\"Save copy\" cluttering timeline/organization",
+      "frequency": 1
+    },
+    {
+      "issue": "Removal of drag-to-select feature",
+      "frequency": 1
+    },
+    {
+      "issue": "SD card corruption/data loss after update",
+      "frequency": 1
+    },
+    {
+      "issue": "Backup persistence after user attempts to turn off",
+      "frequency": 1
+    },
+    {
+      "issue": "Alleged unauthorized deletion of old photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Confusion/repulsion regarding iCloud integration",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to share edited photos (glitch before restart)",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to recover lost apps/icons after phone reset",
+      "frequency": 1
+    },
+    {
+      "issue": "Removal of 'Reimagine' or AI editing features",
+      "frequency": 1
+    },
+    {
+      "issue": "Display glitches (blurry/jittering text) in latest update",
+      "frequency": 1
+    },
+    {
+      "issue": "Requirement of active data connection to view photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Forced upgrade of Google Drive to AI plan/subscription concerns",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to multi-select/delete photos effectively when storage is full",
+      "frequency": 1
+    },
+    {
+      "issue": "Storage limits forcing purchase of additional storage",
+      "frequency": 1
+    },
+    {
+      "issue": "General performance stability issues",
+      "frequency": 1
+    },
+    {
+      "issue": "Photos/Videos failing to share correctly or download",
+      "frequency": 1
+    },
+    {
+      "issue": "Loss of access to specific file types (RAW files) moving to phone",
+      "frequency": 1
+    },
+    {
+      "issue": "New UI design perceived as a downgrade",
+      "frequency": 1
+    },
+    {
+      "issue": "Limitation on adding locations to photos (one per day)",
+      "frequency": 1
+    },
+    {
+      "issue": "Difficulty retrieving lost photos after account/billing issues",
+      "frequency": 1
+    },
+    {
+      "issue": "Video editing/saving hangs or takes excessive time",
+      "frequency": 1
+    },
+    {
+      "issue": "Permission loops preventing media access",
+      "frequency": 1
+    },
+    {
+      "issue": "Excessive battery consumption",
+      "frequency": 1
+    },
+    {
+      "issue": "AI eraser feature buggy/non-functional",
+      "frequency": 1
+    },
+    {
+      "issue": "Aggressive AI feature upselling/prompts",
+      "frequency": 1
+    },
+    {
+      "issue": "Recent photos failing to display",
+      "frequency": 1
+    },
+    {
+      "issue": "Photos/videos automatically deleted",
+      "frequency": 1
+    },
+    {
+      "issue": "Confusing download/photo import process",
+      "frequency": 1
+    },
+    {
+      "issue": "Image orientation/rotation metadata issues preventing uploads to third-party apps",
+      "frequency": 1
+    },
+    {
+      "issue": "Feature removal (warp/frame tools) and slower app performance due to AI integration",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of customization for Collections (hiding folders, resizing via pinch gesture)",
+      "frequency": 1
+    },
+    {
+      "issue": "Accidental deletion of non-backed-up photos when using 'Free up space' feature",
+      "frequency": 1
+    },
+    {
+      "issue": "Difficulty organizing/multifile selection for sharing via email",
+      "frequency": 1
+    },
+    {
+      "issue": "Limited storage capacity relative to price",
+      "frequency": 1
+    },
+    {
+      "issue": "Slow loading times and glitches",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to import specific camera folders separately from other images",
+      "frequency": 1
+    },
+    {
+      "issue": "Privacy concerns regarding access to others' photos",
+      "frequency": 1
+    },
+    {
+      "issue": "No built-in tool to delete duplicate/triplicate photos",
+      "frequency": 1
+    },
+    {
+      "issue": "Recent updates cause edited/cropped photos to disappear from camera roll and third-party apps (Lightroom, FB, etc.)",
+      "frequency": 1
+    },
+    {
+      "issue": "Download function broken (blank white images)",
+      "frequency": 1
+    },
+    {
+      "issue": "Automatic upload to Google Drive without consent",
+      "frequency": 1
+    },
+    {
+      "issue": "Limited storage capacity",
+      "frequency": 1
+    },
+    {
+      "issue": "Change in photo printing partner from Walmart to Fujifilm (slower access)",
+      "frequency": 1
+    },
+    {
+      "issue": "Manual tagging issues (can't modify tags, errors adding names)",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of private folder option",
+      "frequency": 1
+    },
+    {
+      "issue": "Image search quality regression",
+      "frequency": 1
+    },
+    {
+      "issue": "Device/TV connectivity issues",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of folder selection controls and unwanted backup of media (e.g., WhatsApp)",
+      "frequency": 1
+    },
+    {
+      "issue": "Insufficient storage space",
+      "frequency": 1
+    },
+    {
+      "issue": "Magic Eraser feature restricted to upload only",
+      "frequency": 1
+    },
+    {
+      "issue": "App bloat and unintuitive interface",
+      "frequency": 1
+    },
+    {
+      "issue": "Face detection settings reset automatically",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to download pictures",
+      "frequency": 1
+    },
+    {
+      "issue": "UI clutter (unwanted Collections page)",
+      "frequency": 1
+    },
+    {
+      "issue": "Aggressive/buggy permission requests",
+      "frequency": 1
+    },
+    {
+      "issue": "AI features hanging or loading indefinitely",
+      "frequency": 1
+    },
+    {
+      "issue": "App crashes on open",
+      "frequency": 1
+    },
+    {
+      "issue": "Device incompatibility",
+      "frequency": 1
+    },
+    {
+      "issue": "App forces reinstallation or crashes on launch",
+      "frequency": 1
+    },
+    {
+      "issue": "Slow performance/memory loading makes photos inaccessible",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted AI features reduced user-friendliness",
+      "frequency": 1
+    },
+    {
+      "issue": "App does not update",
+      "frequency": 1
+    },
+    {
+      "issue": "Intrusive music added to memories/videos with no mute option for the track",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of granular folder organization (e.g., sub-grouping by family member)",
+      "frequency": 1
+    },
+    {
+      "issue": "Efficient way to label people directly on photos (avoiding face pool selection)",
+      "frequency": 1
+    },
+    {
+      "issue": "Issues with transferring data to a new phone",
+      "frequency": 1
+    },
+    {
+      "issue": "Search functionality gated behind backup/permissions with dark patterns preventing uninstallation",
+      "frequency": 1
+    },
+    {
+      "issue": "Video playback errors ('can't play video')",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted content (e.g., downloaded PC content) appearing in the main library",
+      "frequency": 1
+    },
+    {
+      "issue": "False update notifications / No actual update provided",
+      "frequency": 1
+    },
+    {
+      "issue": "Introduction of unwanted social-media-style features (e.g., key moments, stickers, notifications)",
+      "frequency": 1
+    },
+    {
+      "issue": "Unable to label faces or search by face",
+      "frequency": 1
+    },
+    {
+      "issue": "Inability to share photos directly from app to other applications",
+      "frequency": 1
+    },
+    {
+      "issue": "Bugs in beta features (audio glitches, inability to generate full 15s video clips)",
+      "frequency": 1
+    },
+    {
+      "issue": "Photos/folders not syncing or displaying correctly on device",
+      "frequency": 1
+    },
+    {
+      "issue": "Crashes/failure to open specific media (screenshots, others)",
+      "frequency": 1
+    },
+    {
+      "issue": "Data loss confusion: deleting from main feed deletes from folders",
+      "frequency": 1
+    },
+    {
+      "issue": "Confusing interface for downloading all photos from cloud to local storage",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of version control/update options",
+      "frequency": 1
+    },
+    {
+      "issue": "Insufficient storage",
+      "frequency": 1
+    },
+    {
+      "issue": "App compatibility/failure on specific device",
+      "frequency": 1
+    },
+    {
+      "issue": "Nonsensical/Spam content in review (not an app issue)",
+      "frequency": 1
+    },
+    {
+      "issue": "Slow loading performance",
+      "frequency": 1
+    },
+    {
+      "issue": "Lack of editing tools",
+      "frequency": 1
+    },
+    {
+      "issue": "Portrait light feature broken",
+      "frequency": 1
+    },
+    {
+      "issue": "Repetitive \"What's New\" updates",
+      "frequency": 1
+    },
+    {
+      "issue": "Unpleasant/low-quality music in Memories",
+      "frequency": 1
+    },
+    {
+      "issue": "Difficulty managing uploads across Google accounts",
+      "frequency": 1
+    },
+    {
+      "issue": "No AI assistance for deleting duplicates",
+      "frequency": 1
+    },
+    {
+      "issue": "Extremely slow download speeds",
+      "frequency": 1
+    },
+    {
+      "issue": "Difficult process to delete items",
+      "frequency": 1
+    },
+    {
+      "issue": "Unwanted feature/behavior (subjective refusal to use)",
+      "frequency": 1
+    },
+    {
+      "issue": "Missing specific photo (data loss/sync issue)",
+      "frequency": 1
+    }
+  ],
+  "quotes": [
+    "Face grouping which should be the apps greatest strength & feature is an absolute waste of time. It hardly finds anyone you love or care about & seems more focussed on picking out blurred strangers in the distance.",
+    "If you \"free up space\" you will loose \"original high quality\" photos FOREVER... This app doesn't show this critical information when \"free up space\" is being done.",
+    "now even photos has bloat ware force installed on customers .... SOCIAL album... If I wanted the damn thing, I'd label one & create it.",
+    "Hate it, makes no sense, way too many steps to do basic stuff... alphabetical order, nope because AI and most recent or active are their priorities.",
+    "find all posts by others on the link of the download link I sent the app Anime girls are perennial herb roasted chicken and goes well for me",
+    "when I delete a photo on my phone it deletes it from everywhere",
+    "I'm an octogenarian. Please tell me how many steps it would take to place them on my SD card?",
+    "it's become a nightmare... so that I can just have a normal grid with no feature photos",
+    "you're fixing things until they're broken",
+    "Magic erasor not working. Infinite load time",
+    "changed to 1 star after 11 years of 5 because of deceptive Gemini popups that are easy to press by mistake",
+    "everytime I open the app it asks me to update it but it is not part of the apps that are in updates options",
+    "magic eraser function is not working for a while while means for months it's not working",
+    "Having to save a copy of every single photo you edit is cumbersome, even if just rotating!",
+    "is there a reason for this?",
+    "(regarding the requirement for WiFi to view photos)",
+    "How do you keep breaking this already terrible app? I can't even crop a photo now without it becoming subsequently uneditable and invisible to any external app.",
+    "so I'm already disappointed, but since Google doesn't natively do wallet prints I have to go to the web browser to download the album",
+    "it's turning on photos saving on its own... but some times google steal my data by turning on and taking my photos on server .",
+    "Between Google, Meta, & Apple i dont know whos worse with demanding permissions. for things they dont need access to.",
+    "Since the last update I can't add or remove photos from albums anymore! App is completely unusable",
+    "obtrusive and intrusive",
+    "created numerous photo collections when I was offered (and unfortunately agreed to) save space over 90% of my carefully selected photos were deleted without warning or recourse.",
+    "Got another full screen ad for Gemini AI slop today. How many times do I have to say \"no\" before you stop asking? No means no.",
+    "The latest update caused my phone to move really slow... I was unable to select photos and share. The edit function didn't work either.",
+    "Why on earth would you go for the ugly snapchat model, where I can't see the break between months. Gross design. Stop trying to fix what isn't broken",
+    "there should be an option to set a password for the locked folder... The locked folder should not be accessible without this password.",
+    "ADS SLOP & CLUTTERS PHOTOS into a jumbled mess . Organization is dreadfull.",
+    "keeps asking me for Gemini. why can't you take no for an answer?",
+    "It's good, except that it displays, suggests, and creates content without the user's permission, and this is one of the things that made most of Google users are turning away from it",
+    "I don't know which photos are saved, where or if they are stored seemingly cannot be retrievable anyhow.",
+    "keeps trying to enhance my photos even when I'm just trying to show someone a photo... a loading sign is CONSTANTLY IN ALL OF MY PHOTOS. PLEASE STOP GOOGLE",
+    "I hate that I have to scroll through all these unnecessary photos that aren't backed up(for a reason) before I get to the photos that I'm looking for",
+    "magic eraser doesn't work anymore... Google dropped the ball",
+    "its a malware, I'll be happy to uninstall it every time",
+    "After thirty years of excellent and reliable service, it is still very much appreciated and my sole app for photos and videos.",
+    "I'm forced to use this app, even when I never had it downloaded. I can't delete all my pictures in google photos or else it'll delete from everywhere on my device.",
+    "this app monitors EVERYTHING on your phone. EVERYTHING. then turns around and snitches to google",
+    "despite buying premium my photos get deleted from my Google photos despite manually backed up by me",
+    "The new grid layout is horrible",
+    "stop rolling out useless updates",
+    "always invades my GB",
+    "It will show me pictures of my baby daughter and the lyrics are highly sexualized and it's so frustrating.",
+    "Whoever designed this was linguistically challenged... Starred and favorites is the SAME thing. This is a display of massive lack of intelligence.",
+    "If i say delete photos from google photos it should have deleted only from google photos storage why did it deleted from local storage... I cant afford to lose these pictures.",
+    "I wish Google would stop insufferably shoving gen ai garbage down throats long enough to ACTUALLY FIX SOFTWARE.",
+    "Compromised device and then hacked",
+    "Having the \"Free Up Space\" prompt, with no confirmation and minimal explanation, permanently delete every photo from your local device, with NO progress bar or undo or re-download option, is awful product design.",
+    "Since the recent update the Erase feature no longer works and the AI Enhance works intermittently. This software is becoming useless.",
+    "Shaky video stabilization used to work fine before but now it is a total mess. It does not stabilize as it used to earlier and the video itself becoming stuttering after stabilization which is very bad",
+    "I'm upset that there is no info under my photo telling of its f stop and ISO readings. There previously was . Why is it gone?",
+    "Google photos is really amazing. It brings back to me memories of the past. I love it",
+    "Preventing users from deleting cloud photos without wiping them from their devices is pure hostage tactics.",
+    "this pos app deletes it off PHONE too. now im screwed",
+    "my autism hates everything about this. i want all of them to have the same size.",
+    "If I download 120MB & 99MB has been downloaded & progress gets interrupted then it starts from 0MB. Huge data waste.",
+    "I lost my old phone and was really worried about all the photos saved on it. Thank God, I found all my precious photos safely backed up in Google Photos.",
+    "Even after disabling the app, the OS continues trying to push me to Google Photos. Seems anticompetitive to me.",
+    "The organized photo albums keep shuffling on themselves and sometimes the pictures in the gallery appear blank.",
+    "I don't need 2 app on my phone.",
+    "stop automatically changing stuff I wanted it the way it was. if I want to change it I'll be the one doing it",
+    "Mfula Nyandeni is not me , too many add and install and viruses add too much.",
+    "why mess it up poor taste donot recommend this .",
+    "The auto back up is linked to their cloud storage which spams you with adds to buy more space after the force fills it with no way for you to stop if from doing so.",
+    "bad updates. puts captions on photos and adds music that's wild to it.",
+    "I don't need a social media platform and shouldn't have to have one just to edit the photos I take with the camera app.",
+    "Some photos randomly have a larger thumbnail in the main gallery view. This is very annoying and makes it impossible to see the photos in a chronological view.",
+    "from a great and useful feature it started grouping all babies or all bold men to one person... and if you try to remove them, there's always an error that shows up :(",
+    "lines now appear across every picture when using unblur feature",
+    "I can't get over the fact that they made all the music in memories, vocal music and I can't change it back to that instrumental music that had that nostalgic feel",
+    "I'm currently seeing the settings off, and it doesn't allow to delete the upload without deleting it from your device as well",
+    "The ads you see claiming to retrieve deleted files or pictures don't work",
+    "This Is Very Good And Excellent App",
+    "The fact that I can't even access the photos on my phone that I just took until they are backed up is beyond ridiculous.",
+    "It takes 20 seconds per photo [to delete]. Will Google ever learn to not screw up something that is working perfectly well?",
+    "Where are my missing album pictures that I uploaded from my Galaxy phone! Still missing!!!",
+    "Sharing photos to Gemini or Signal or other app doesn't work - literally nothing happens.",
+    "Latest update applied (9/17/2026) has corrupted my SD card in my Android phone... Both Android & Google Photos want to format the SD card",
+    "Why did you remove grid view?! There are so many things going wrong with this app in the last couple of years.",
+    "The search in this version is HORRIBLE. You keep becoming more like Apple and iPhone every day",
+    "I was saving them forever . not any apps chose . they are my photos , my phone ,I paid for the service . who gave you permission to do anything with my photos",
+    "Way to go, Google, breaking an app that did not need fixing!",
+    "Stop turning my videos into your entertainment",
+    "This phone has been hard to know had it it works??",
+    "It would be ok if it stopped taking money from my bank account I put money in turn around and Google's got it also I've lost my photos don't know how to retrieve them",
+    "I deleted the Google Photos app and it stl showed no available storage and I still won't get emails... they're still threatening to block emails again.",
+    "the new ui makeover is pretty much a downgrade in every way",
+    "I used to be able to move RAW files to my phone and see them on Google Photos. It does not show up anymore.",
+    "it takes hours and sometimes never get saved",
+    "keeps telling me to give Google permission to access my photos? I have done that....4'x's NOW",
+    "every 2 seconds asked you to use the AI features. it's scammy af",
+    "automatically delete my photos and video",
+    "it no longer shows up on my camera, recent photos, or any other album in other apps to post... none of the recent updates have fixed this issue.",
+    "at some point this year google removed like half of their features, replaced them with ai or they dont exist anymore, and the app runs slower.",
+    "It deleted photos other than the ones that are backed up on using the free up space on this device feature.",
+    "my workaround has been to screenshot that image, then for whatever reason, it doesn't care that I edit THAT image.",
+    "suddenly decided to upload all my photos to my google drive without asking me first then demanded money from me cause my drive was almost full.",
+    "the last update broke the app the app used to let me download images off of Google but now every time I try to download a image off of Google or another website it just a blank white image 🙄",
+    "I DON'T CARE FOR GOOGS TAKING OVER HOW I TAKE, STORE OR LAY OUT MY VISUAL MEDIA!",
+    "One of the redeeming qualities of this app used to be that you can get your photos printed from Walmart. ... they recently changed it to Fujifilm.",
+    "it is so bloated with fancy tricks that it's become over-complicated and unintuitive.",
+    "Its ai features are not working. They all are just loading for hours.",
+    "face detection automatically reset i cannot see a familar face",
+    "please allow access to select multiple items versus dragging to select",
+    "It needs to be reinstalled everytime when I open the app which is inconvenience",
+    "why is AI being shoved down our throats? I don't want bots changing everything!",
+    "STOP ADDING MUSIC TO MEMORIES. Nobody wants awful music added over videos of their children.",
+    "Photos pretends you can uninstall it, but it just hides, uploading all your data to the cloud against your will.",
+    "can't get any emails",
+    "NOT COOL, VERY CREEPY! If this happend in person I would report them to the police for stalking!",
+    "Somehow you guys decided to purge my whole 2020 year of pictures and videos... So you've also entire year of my life just dumped it like it was trash",
+    "you guys are ruining things? seriously, just stop. it was fine as it was YEARS ago.",
+    "worst photo app in existence. want to see all your photos? sorry, we put them all in separate and inconvenient albums. utter garbage",
+    "Just a small change that renders the whole app really annoying to use.",
+    "AI integration has killed the app",
+    "Heavenly Father is going to make you all stupid. (Note: Highly toxic/unexpected user sentiment)",
+    "you file the photos meticulously but if you then delete them from the main page... they also disappears from the file. Ridiculous.",
+    "Abysmal. Deliberately difficult to assign uploads to one Google account, so you're constantly having to delete stuff, very difficult to delete things, no AI assistance to delete duplicates etc. Takes 5 minutes to download one photo.",
+    "Recently pleasant music for memories has been replaced with rubbish songs.",
+    "I literary don't want to use this app because of my will 💀"
+  ]
+}

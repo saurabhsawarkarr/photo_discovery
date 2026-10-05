@@ -1,0 +1,189 @@
+{
+  "segments": [
+    {
+      "segment_id": "S1",
+      "segment_name": "The Disconnected Localists",
+      "segment_description": "Users who perceive Google Photos purely as a local gallery extension. They are experiencing a severe disconnection where locally present or recently synced photos are invisible to the search index. This group exhibits extreme frustration due to a perceived loss of data integrity, often conflating 'not searchable' with 'lost' or 'not backed up'. They typically abandon search when the immediate feedback loop (photo exists in gallery -> should exist in search) fails.",
+      "size": 42,
+      "percentage_of_corpus": 37.84,
+      "dominant_failure_points": [
+        "D",
+        "F",
+        "G"
+      ],
+      "dominant_behaviours": [
+        "Attempting to search for photos verifiable in the local device gallery",
+        "Re-checking backup status after failed searches",
+        "Abandoning search after 1-2 failed attempts due to high anxiety over data safety"
+      ],
+      "common_scenarios": [
+        "Searching for a photo taken 5 minutes ago that is visible in the camera roll",
+        "Trying to retrieve a specific video from a recent event by date or file name",
+        "Verifying that a device folder has been backed up by searching for its contents"
+      ],
+      "common_memory_types": [
+        "Recency",
+        "Verification"
+      ],
+      "key_pain_points": [
+        "PP1",
+        "PP5"
+      ],
+      "key_themes": [
+        "T1",
+        "T3"
+      ],
+      "representative_quotes": [
+        {
+          "quote": "Can't find my device photos even if I backed everything up.",
+          "source": "app_store"
+        },
+        {
+          "quote": "Incredibly stupid how it can't find photos from my gallery",
+          "source": "app_store"
+        }
+      ]
+    },
+    {
+      "segment_id": "S2",
+      "segment_name": "The Semantic Specifics Seekers",
+      "segment_description": "Users who leverage deep contextual metadata (specific addresses, unique event names, or custom labels) to retrieve media. They hold a mental model that search is a precise database query engine rather than a fuzzy semantic matcher. When specific queries return broad or irrelevant results, they experience a 'semantic gap', leading to frustration that the system does not respect the granular details they provided.",
+      "size": 35,
+      "percentage_of_corpus": 31.53,
+      "dominant_failure_points": [
+        "C",
+        "B",
+        "A"
+      ],
+      "dominant_behaviours": [
+        "Inputting long, specific natural language queries (e.g., street addresses, specific prop names)",
+        "Reliance on previously applied custom labels",
+        "Iterating with synonym swaps when specific keywords fail (though often limited by the system's gap)"
+      ],
+      "common_scenarios": [
+        "Searching for a photo of a specific location using its street address",
+        "Retrieving a memory of a specific object (e.g., 'the red pinwheel') without tagging it",
+        "Trying to find photos associated with a specific person using a custom label description"
+      ],
+      "common_memory_types": [
+        "Episodic",
+        "Semantic"
+      ],
+      "key_pain_points": [
+        "PP2"
+      ],
+      "key_themes": [
+        "T2",
+        "T1"
+      ],
+      "representative_quotes": [
+        {
+          "quote": "I put an address in the search field and nothing useless.",
+          "source": "app_store"
+        },
+        {
+          "quote": "looked for pinwheel cant find it",
+          "source": "app_store"
+        },
+        {
+          "quote": "I can no longer search for SOME family and friends names in label descriptions I've make over many years",
+          "source": "app_store"
+        }
+      ]
+    },
+    {
+      "segment_id": "S3",
+      "segment_name": "The Navigation Lost",
+      "segment_description": "Users struggling with the app's structural changes. This segment is less concerned with the keyword-processing of search and more with the physical location of their files within the UI. They feel the interface has become a 'black box' where starred items, favorites, and automated collections obscure the traditional timeline. They often chase the 'correct folder' instead of trusting the search function, resulting in wasted effort and high frustration when system-generated folders don't align with their mental map.",
+      "size": 28,
+      "percentage_of_corpus": 25.23,
+      "dominant_failure_points": [
+        "G",
+        "E",
+        "D"
+      ],
+      "dominant_behaviours": [
+        "Browsing through visible folders and collections instead of using search",
+        "Attempting to find settings/features via the search bar (control mechanism misuse)",
+        "Expressing confusion about the difference between redundant UI elements (Starred vs. Favorites)"
+      ],
+      "common_scenarios": [
+        "Trying to find a photo from a specific date by navigating the timeline",
+        "Searching for settings to disable automated AI features (e.g., Moments)",
+        "Locating a specific item that was previously 'starred' but has been moved to a hidden system collection"
+      ],
+      "common_memory_types": [
+        "Spatial",
+        "Procedural"
+      ],
+      "key_pain_points": [
+        "PP3",
+        "PP4",
+        "UP2"
+      ],
+      "key_themes": [
+        "T3",
+        "T4"
+      ],
+      "representative_quotes": [
+        {
+          "quote": "You star a photo and can't find it elsewhere. It gets filed under collections that doesn't show up everywhere either. Then you run into a stupid folder called favorites. Starred and favorites is the SAME thing.",
+          "source": "app_store"
+        },
+        {
+          "quote": "Hard to use, crowded with AI... moments, faces pets. can't find the right folder, it's not user friendly.",
+          "source": "app_store"
+        },
+        {
+          "quote": "Perhaps there is a way to shut off this feature, but I can't find it.",
+          "source": "app_store"
+        }
+      ]
+    },
+    {
+      "segment_id": "S4",
+      "segment_name": "The Documented Stragglers",
+      "segment_description": "A distinct minority of users who actively engage with troubleshooting materials but fail because the provided documentation no longer matches the current app state. They exhibit a 'followed instructions' failure mode, where they have attempted standard fixes (clearing cache, checking settings) but the issue persists due to a mismatch between the help content and the actual product behavior. This group is capable of complex diagnostic efforts but leads to a dead end, resulting in high frustration due to the wasted effort.",
+      "size": 6,
+      "percentage_of_corpus": 5.41,
+      "dominant_failure_points": [
+        "F",
+        "B",
+        "C"
+      ],
+      "dominant_behaviours": [
+        "Following step-by-step support guides before posting complaints",
+        "Verifying that specific settings are enabled",
+        "Reporting failures as 'impossible to fix' despite adhering to official recovery steps"
+      ],
+      "common_scenarios": [
+        "Attempting to manually index a specific folder after following a help article",
+        "Clearing app cache/data to force a re-index based on support advice",
+        "Checking specific permissions in the OS settings as recommended by troubleshooting guides"
+      ],
+      "common_memory_types": [
+        "Procedural",
+        "Verification"
+      ],
+      "key_pain_points": [
+        "UP1",
+        "PP2"
+      ],
+      "key_themes": [
+        "T1",
+        "T2"
+      ],
+      "representative_quotes": [
+        {
+          "quote": "followed the steps and still can't find what I need.",
+          "source": "app_store"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "llm_model": "qwen/qwen3.8-27b",
+    "llm_prompt_version": "v1.0",
+    "processed_at": "2026-09-26T14:05:18.863Z"
+  }
+}

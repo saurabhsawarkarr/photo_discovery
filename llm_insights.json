@@ -1,0 +1,122 @@
+{
+  "segments": [
+    {
+      "segment_id": "S1",
+      "segment_name": "Missing/Disappeared Photos After Updates",
+      "segment_description": "Users report that photos or entire albums are missing, cannot be accessed, or disappear after app updates or reinstallations.",
+      "dominant_failure_points": [
+        "M"
+      ],
+      "dominant_behaviours": [
+        "reinstall attempt",
+        "manual album navigation"
+      ],
+      "frustration_profile": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "evidence_record_ids": [
+        "REV_3",
+        "REV_9",
+        "REV_12",
+        "REV_20",
+        "REV_49",
+        "REV_5"
+      ]
+    },
+    {
+      "segment_id": "S2",
+      "segment_name": "Face Recognition & Grouping Failures",
+      "segment_description": "Users are unable to rely on AI face grouping; faces are mis‑identified, groups disappear, or manual tagging is missing.",
+      "dominant_failure_points": [
+        "F"
+      ],
+      "dominant_behaviours": [
+        "manual face tagging attempt",
+        "relying on AI face groups"
+      ],
+      "frustration_profile": {
+        "high": 0,
+        "medium": 2,
+        "low": 1
+      },
+      "evidence_record_ids": [
+        "REV_4",
+        "REV_11",
+        "REV_39"
+      ]
+    },
+    {
+      "segment_id": "S3",
+      "segment_name": "Search & Keyword Retrieval Issues",
+      "segment_description": "Users cannot locate photos via search, address or keyword; UI prompts (e.g., Gemini) block the search field, and in‑album search is missing.",
+      "dominant_failure_points": [
+        "S"
+      ],
+      "dominant_behaviours": [
+        "keyword tweaking",
+        "address search attempts"
+      ],
+      "frustration_profile": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "evidence_record_ids": [
+        "REV_14",
+        "REV_33",
+        "REV_24"
+      ]
+    },
+    {
+      "segment_id": "S4",
+      "segment_name": "Batch Operations & Multi‑Select Problems",
+      "segment_description": "Users struggle with selecting, deleting, or restoring multiple photos; batch actions are missing or behave unpredictably.",
+      "dominant_failure_points": [
+        "B"
+      ],
+      "dominant_behaviours": [
+        "multi‑select attempts",
+        "batch delete actions",
+        "restore operations"
+      ],
+      "frustration_profile": {
+        "high": 5,
+        "medium": 0,
+        "low": 0
+      },
+      "evidence_record_ids": [
+        "REV_17",
+        "REV_22",
+        "REV_27",
+        "REV_37",
+        "REV_42"
+      ]
+    },
+    {
+      "segment_id": "S5",
+      "segment_name": "Offline/Storage Management Retrieval Problems",
+      "segment_description": "Users encounter issues when trying to view photos offline, clear device storage, or manage auto‑backup settings; actions either fail or cause data loss.",
+      "dominant_failure_points": [
+        "O"
+      ],
+      "dominant_behaviours": [
+        "offline view attempts",
+        "storage clearing",
+        "free‑up‑space usage"
+      ],
+      "frustration_profile": {
+        "high": 2,
+        "medium": 1,
+        "low": 1
+      },
+      "evidence_record_ids": [
+        "REV_23",
+        "REV_30",
+        "REV_29",
+        "REV_45"
+      ]
+    }
+  ]
+}
