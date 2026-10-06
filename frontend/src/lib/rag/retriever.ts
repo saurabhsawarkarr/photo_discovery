@@ -65,11 +65,11 @@ function scoreTFIDF(
 // Optional: boost score when the source is explicitly mentioned in the query
 function sourceBoost(query: string, chunk: DocumentChunk): number {
   const q = query.toLowerCase();
-  if ((q.includes('interview') || q.includes('resham') || q.includes('naina') || q.includes('ishwar') || q.includes('pritish')) && chunk.source === 'interviews') return 0.4;
-  if (q.includes('finding') && chunk.source === 'findings') return 0.3;
   if ((q.includes('statistic') || q.includes('percent') || q.includes('%') || q.includes('frequently') || q.includes('often') || q.includes('common') || q.includes('distribution') || q.includes('number')) && chunk.source === 'stats') return 0.4;
   if ((q.includes('segment') || q.includes('user type')) && chunk.source === 'segments') return 0.3;
   if ((q.includes('theme') || q.includes('pattern')) && chunk.source === 'themes') return 0.3;
+  if ((q.includes('hypothes') || q.includes('interview question') || q.includes('testable') || q.includes('validate') || q.includes('research brief')) && chunk.source === 'hypotheses') return 0.8; // Heavily boosted
+  if ((q.includes('journey') || q.includes('user story') || q.includes('experience') || q.includes('workaround') || q.includes('scenario')) && chunk.source === 'journeys') return 0.3;
   return 0;
 }
 

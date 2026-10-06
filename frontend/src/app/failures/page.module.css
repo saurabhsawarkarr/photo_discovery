@@ -1,0 +1,120 @@
+.themesList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.themeCard {
+  background: #ffffff;
+  border: 1px solid #e0e2e6;
+  border-radius: 14px;
+  padding: 1.75rem;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.themeCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(60, 64, 67, 0.1);
+  border-color: #1a73e8;
+}
+
+.themeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid #f1f3f4;
+  padding-bottom: 1rem;
+}
+
+.themeTitleWrap {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.themeIdBadge {
+  background: #fce8e6;
+  color: #d93025;
+  border: 1px solid #fad2cf;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.themeName {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #202124;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.themePercentage {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #d93025;
+}
+
+.themeDescription {
+  color: #3c4043;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.themeDetailsGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1.25rem;
+}
+
+.detailBox {
+  background: #f8fafd;
+  padding: 1.25rem;
+  border-radius: 10px;
+  border: 1px solid #e0e2e6;
+  border-left: 4px solid #1a73e8;
+}
+
+.detailLabel {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #5f6368;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.quoteText {
+  color: #202124;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.impactText {
+  color: #3c4043;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 0.35rem;
+}
+
+.impactText strong {
+  color: #202124;
+  font-weight: 600;
+}
+
+@media (max-width: 868px) {
+  .themeDetailsGrid {
+    grid-template-columns: 1fr;
+  }
+}

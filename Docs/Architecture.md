@@ -833,13 +833,120 @@ volumes:
 
 ---
 
-## 13. V2 Extensions (Future)
+## 13. RAG Research Assistant
+
+> **Status:** Implemented  
+> **Added:** 2026-10-06
+
+### 13.1 Architecture Overview
+
+The RAG (Retrieval-Augmented Generation) Research Assistant lets users ask natural-language questions about the research data and receive evidence-backed, streaming answers grounded in the project's documents.
+
+```mermaid
+graph LR
+    subgraph Knowledge Base
+        MD[Findings.md\nContext.md\nProblem Statement]
+        INT[Interview Transcripts]
+        JSON[Themes JSON\nSegments JSON\nStats JSON\nHypotheses JSON\nJourneys JSON]
+    end
+
+    subgraph RAG Pipeline
+        LOAD[Document Loader\nChunker]
+        IDX[In-Memory TF-IDF Index]
+        RET[Retriever\nTop-K + Source Boost]
+    end
+
+    subgraph LLM Layer
+        SYS[System Prompt\nResearch Context]
+        GROQ[Groq API\nllama-3.3-70b]
+        SSE[SSE Stream]
+    end
+
+    subgraph Frontend
+        ASK[/ask Chat UI]
+    end
+
+    MD & INT & JSON --> LOAD --> IDX
+    ASK -->|question| RET
+    IDX --> RET -->|top 6 chunks| SYS --> GROQ --> SSE --> ASK
+```
+
+### 13.2 Technology Stack
+
+| Component | Technology | Rationale |
+|---|---|---|
+| **Document Loading** | Custom `loader.ts` (Node.js `fs`) | Reads Markdown, text, and JSON files; chunks with overlap for context preservation |
+| **Retrieval** | Custom TF-IDF with source boosting | Lightweight, zero-dependency, no vector DB needed for 9-document corpus |
+| **LLM Provider** | Groq API (`groq-sdk`) | Ultra-fast streaming inference; same provider as the analysis pipeline |
+| **API Transport** | Next.js API Route (`/api/rag`) + SSE | Server-Sent Events for real-time token streaming |
+| **Frontend** | React + `react-markdown` + `remark-gfm` | Streaming chat UI with markdown rendering and source attribution |
+
+### 13.3 Knowledge Base (9 Documents)
+
+| # | Source | File | Type | Label |
+|---|---|---|---|---|
+| 1 | Research Findings | `Docs/Findings.md` | Markdown | Research Findings |
+| 2 | Research Context | `Docs/Context.md` | Markdown | Research Context & Framework |
+| 3 | User Interviews | `Docs/interview_text.txt` | Text | User Interviews (Ishwar, Resham, Naina, Pritish) |
+| 4 | Problem Statement | `Docs/Problem Stataemnt.txt` | Text | Problem Statement & Research Goals |
+| 5 | Theme Analysis | `data/phase4/phase4d_themes.json` | JSON | LLM Theme Analysis (13k reviews) |
+| 6 | User Segments | `data/phase4/phase4e_segments.json` | JSON | User Segment Analysis |
+| 7 | Failure Statistics | `data/phase4/phase4c_aggregation.json` | JSON | Failure Point Statistics |
+| 8 | Hypotheses | `data/phase4/phase4f_hypotheses.json` | JSON | Research Hypotheses & Interview Questions |
+| 9 | User Journeys | `data/phase4/phase4b_journeys.json` | JSON | User Journey Extractions (111 journeys) |
+
+### 13.4 Retrieval Strategy
+
+- **Chunking:** Paragraph-boundary splitting with configurable chunk size (900 chars for text, 1100 for JSON) and 200–250 char overlap
+- **Scoring:** TF-IDF with IDF cached per process lifecycle
+- **Source Boosting:** Query keywords (e.g., "interview", "hypothesis", "statistics") apply a 0.3–0.4 score multiplier to chunks from matching sources
+- **Top-K:** Returns top 6 chunks; falls back to core findings if no chunks score > 0
+
+### 13.5 Key Files
+
+```
+frontend/
+├── src/
+│   ├── lib/rag/
+│   │   ├── loader.ts          # Document loading & chunking (9 sources)
+│   │   └── retriever.ts       # TF-IDF scoring + source boosting
+│   └── app/
+│       ├── ask/
+│       │   ├── page.tsx        # Chat UI with streaming + source chips
+│       │   └── page.module.css # Ask page styles
+│       └── api/rag/
+│           └── route.ts        # SSE streaming API (Groq + retrieval)
+├── .env.example                # GROQ_API_KEY, GROQ_MODEL
+└── test-rag.js                 # Smoke test script
+```
+
+### 13.6 Environment Variables (Frontend)
+
+```env
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL=llama-3.3-70b-versatile
+# Optional: NEXT_PUBLIC_API_URL=http://localhost:3001
+```
+
+### 13.7 Design Decisions
+
+| Decision | Choice | Why |
+|---|---|---|
+| In-memory TF-IDF over pgvector | Lightweight retrieval, no DB dependency | Corpus is only 9 documents — vector embeddings are overkill |
+| SSE over WebSocket | Server-Sent Events for streaming | Simpler, HTTP-native, one-directional streaming is sufficient |
+| Chunk caching at module level | `cachedChunks` persists across requests | Avoids re-reading and re-chunking on every question |
+| Source boosting heuristic | Keyword-matched score multipliers | Ensures domain-specific queries (e.g., "what did Resham say?") prioritize the right document |
+
+---
+
+## 14. V2 Extensions (Future)
 
 When the evidence pipeline is reliable:
 
 | Extension | Approach |
 |---|---|
-| **RAG Chatbot** | Embed analysis results into vector DB (pgvector) → RAG retrieval → conversational research queries |
+| **Semantic Retrieval Upgrade** | Replace TF-IDF with embedding-based retrieval (pgvector or FAISS) for better paraphrase handling |
+| **Conversation Memory** | Add multi-turn context so follow-up questions work |
 | **Real-time Collection** | Move from batch to streaming collection with webhooks/RSS |
 | **Multi-language Support** | Add translation layer before cleaning for non-English sources |
 | **Collaborative Annotation** | Allow researchers to manually tag/correct LLM classifications |
@@ -847,7 +954,7 @@ When the evidence pipeline is reliable:
 
 ---
 
-## 14. Summary
+## 15. Summary
 
 | Layer | Technology | Key Files |
 |---|---|---|
@@ -858,4 +965,6 @@ When the evidence pipeline is reliable:
 | **LLM** | Groq API | `src/llm/` |
 | **API** | Express/Fastify REST | `src/api/` |
 | **Dashboard** | Next.js + Recharts | `frontend/` |
+| **RAG Assistant** | Groq + TF-IDF + SSE | `frontend/src/lib/rag/`, `frontend/src/app/ask/` |
 | **Infrastructure** | Docker Compose | `docker-compose.yml` |
+

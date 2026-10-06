@@ -12,6 +12,7 @@ import dashboardRoutes from './routes/dashboard';
 import evidenceRoutes from './routes/evidence';
 import segmentRoutes from './routes/segments';
 import pipelineRoutes from './routes/pipeline';
+import exportRoutes from './routes/export';
 
 const app = express();
 const port = process.env.API_PORT || 3000;
@@ -44,6 +45,7 @@ app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/evidence', evidenceRoutes);
 app.use('/api/segments', segmentRoutes);
 app.use('/api/pipeline', pipelineRoutes);
+app.use('/api/export', exportRoutes);
 
 // Global Error Handler
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {

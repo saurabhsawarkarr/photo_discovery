@@ -22,6 +22,7 @@ This document defines the **phase-wise implementation plan** for the Google Phot
 | **4** | LLM Analysis Engine | 6-step analysis: Relevance → Journey Extraction → Aggregation → Themes → Segments → Hypotheses |
 | **5** | API Layer & Data Export | Full REST API, CSV/JSON export |
 | **6** | Frontend Dashboard | Complete discovery dashboard with all sections |
+| **7** | RAG Research Assistant | Conversational Q&A chatbot grounded in all research documents |
 
 > [!NOTE]
 > Phases can overlap slightly where dependencies allow.
@@ -1312,6 +1313,147 @@ IRRELEVANT — About storage, backup, pricing, sync, editing, sharing,
 
 ---
 
+## Phase 7 — RAG Research Assistant
+
+**Goal:** Build a conversational Q&A chatbot that lets users ask natural-language questions about the research and receive streaming, evidence-backed answers grounded in all project documents — findings, interviews, themes, segments, hypotheses, and user journeys.
+
+> [!IMPORTANT]
+> **Design Decision:** The RAG system uses an in-memory TF-IDF retriever instead of a vector database. With only 9 documents in the corpus, embedding-based retrieval (pgvector, FAISS) is unnecessary complexity. If the corpus grows significantly, consider upgrading to semantic retrieval (see Architecture §14).
+
+### Phase 7 — Sub-Phase Overview
+
+- [x] **7.1** — Knowledge Base Loader (9 document sources)
+- [x] **7.2** — TF-IDF Retrieval Engine with source boosting
+- [x] **7.3** — LLM API Backend (Groq streaming via SSE)
+- [x] **7.4** — Chat UI (`/ask` page)
+- [x] **7.5** — Documentation (Architecture.md §13 + Implementation.md Phase 7)
+- [ ] **7.6** — Testing & Hardening
+
+### 7.1 Knowledge Base Loader
+
+| Task | Details |
+|---|---|
+| Create `frontend/src/lib/rag/loader.ts` | Document loading and chunking module |
+| Load Markdown files | `Findings.md`, `Context.md` |
+| Load text files | `interview_text.txt`, `Problem Stataemnt.txt` |
+| Load JSON data files | `phase4d_themes.json`, `phase4e_segments.json`, `phase4c_aggregation.json`, `phase4f_hypotheses.json`, `phase4b_journeys.json` |
+| Smart chunking | Paragraph-boundary splitting with configurable chunk size and overlap |
+| Module-level caching | Chunks loaded once and cached for the lifetime of the server process |
+
+**Chunking configuration:**
+
+| Document Type | Chunk Size | Overlap |
+|---|---|---|
+| Markdown / Text | 900 chars | 200 chars |
+| JSON (pretty-printed) | 1100 chars | 250 chars |
+
+**9 Document Sources:**
+
+| # | Source | File | Type |
+|---|---|---|---|
+| 1 | Research Findings | `Docs/Findings.md` | Markdown |
+| 2 | Research Context & Framework | `Docs/Context.md` | Markdown |
+| 3 | User Interviews | `Docs/interview_text.txt` | Text |
+| 4 | Problem Statement & Research Goals | `Docs/Problem Stataemnt.txt` | Text |
+| 5 | LLM Theme Analysis (13k reviews) | `data/phase4/phase4d_themes.json` | JSON |
+| 6 | User Segment Analysis | `data/phase4/phase4e_segments.json` | JSON |
+| 7 | Failure Point Statistics | `data/phase4/phase4c_aggregation.json` | JSON |
+| 8 | Research Hypotheses & Interview Questions | `data/phase4/phase4f_hypotheses.json` | JSON |
+| 9 | User Journey Extractions (111 journeys) | `data/phase4/phase4b_journeys.json` | JSON |
+
+### 7.2 TF-IDF Retrieval Engine
+
+| Task | Details |
+|---|---|
+| Create `frontend/src/lib/rag/retriever.ts` | Custom TF-IDF retrieval with source boosting |
+| Implement tokenization | Lowercase, strip non-alphanumeric, filter stop words, min 3-char tokens |
+| Build IDF index | Inverse document frequency computed once across all chunks, cached per process |
+| TF-IDF scoring | Term frequency × inverse document frequency per query token |
+| Source boosting | Keyword heuristics apply 0.3–0.4 score multiplier when query matches a source domain |
+| Top-K retrieval | Return top 6 chunks with score > 0; fallback to findings if no matches |
+
+**Source boost rules:**
+
+| Query Keywords | Boosted Source | Boost |
+|---|---|---|
+| "interview", "resham", "naina", "ishwar", "pritish" | Interviews | +0.4 |
+| "statistic", "percent", "%", "distribution", "number" | Statistics | +0.4 |
+| "hypothes", "interview question", "testable", "validate" | Hypotheses | +0.4 |
+| "finding" | Findings | +0.3 |
+| "segment", "user type" | Segments | +0.3 |
+| "theme", "pattern" | Themes | +0.3 |
+| "journey", "user story", "experience", "workaround" | Journeys | +0.3 |
+| "problem", "research goal", "objective", "framework" | Problem Statement | +0.3 |
+
+### 7.3 LLM API Backend
+
+| Task | Details |
+|---|---|
+| Create `frontend/src/app/api/rag/route.ts` | Next.js API route for RAG Q&A |
+| System prompt | Research-context-aware prompt with failure point codes A–G, data sources, and strict grounding rules |
+| Groq streaming | `groq-sdk` with `stream: true`, model `llama-3.3-70b-versatile`, `temperature: 0.2`, `max_tokens: 1200` |
+| SSE transport | Server-Sent Events: `sources` event first → `token` events → `done` event |
+| CORS handling | `OPTIONS` preflight handler for cross-origin requests |
+| Chunk caching | Module-level cache; chunks loaded once per server instance |
+
+**SSE event protocol:**
+
+```
+data: {"type": "sources", "sources": ["Research Findings", "User Interviews"]}
+
+data: {"type": "token", "content": "Based on"}
+data: {"type": "token", "content": " the research"}
+...
+data: {"type": "done"}
+```
+
+### 7.4 Chat UI
+
+| Task | Details |
+|---|---|
+| Create `frontend/src/app/ask/page.tsx` | Interactive chat page |
+| Suggested questions | 8 pre-populated research questions for new users |
+| Streaming display | Tokens rendered in real-time with blinking cursor indicator |
+| Markdown rendering | `react-markdown` + `remark-gfm` for formatted responses |
+| Source attribution | Color-coded source chips with emoji icons shown after each response |
+| Keyboard shortcuts | Enter to send, Shift+Enter for new line |
+| Loading states | Animated thinking dots while waiting for first token |
+
+### 7.5 Documentation
+
+| Task | Details |
+|---|---|
+| Update `Docs/Architecture.md` | New §13 — RAG Research Assistant (architecture diagram, tech stack, knowledge base, design decisions) |
+| Update `Docs/Implementation.md` | Phase 7 added to phase summary table and full phase documentation |
+| Create `frontend/.env.example` | Documents `GROQ_API_KEY`, `GROQ_MODEL`, `NEXT_PUBLIC_API_URL` |
+| Move RAG from V2 Extensions | RAG removed from "future" list in Architecture.md; replaced with semantic upgrade |
+
+### 7.6 Testing & Hardening (Remaining)
+
+| Task | Details | Status |
+|---|---|---|
+| Error handling for missing API key | Show user-friendly message on `/ask` if `GROQ_API_KEY` is not set | ✅ |
+| Query caching | Cache identical questions to avoid duplicate Groq API calls | ✅ |
+| Conversation memory | Multi-turn context so follow-up questions work | ✅ |
+| Chat export | Allow users to copy/export chat history | ⏭️ Skipped |
+| Query analytics | Log questions asked for research into user needs | ✅ |
+| Comprehensive test suite | Test 10+ queries with verified source attribution | ✅ |
+
+### Phase 7 — Exit Criteria
+
+- [x] RAG loader ingests all 9 document sources with smart chunking
+- [x] TF-IDF retriever returns relevant chunks with source boosting
+- [x] SSE streaming API delivers real-time token responses via Groq
+- [x] Chat UI renders markdown, shows source chips, supports suggested questions
+- [x] Architecture.md updated with RAG architecture section (§13)
+- [x] Implementation.md updated with Phase 7
+- [x] Frontend `.env.example` created
+- [x] Error handling for missing API key shows user-friendly message
+- [x] At least 10 test queries verified with correct source attribution
+- [x] RAG answers questions about hypotheses, interview questions, and specific user journeys correctly
+
+---
+
 ## Dependency Graph
 
 ```mermaid
@@ -1323,6 +1465,8 @@ graph TD
     P3 --> P4
     P4 --> P5["Phase 5: API Layer"]
     P5 --> P6["Phase 6: Dashboard"]
+    P4 --> P7["Phase 7: RAG Assistant"]
+    P6 --> P7
 
     subgraph Phase4["Phase 4 — LLM Analysis Engine"]
         P4A["4A: Deep Relevance Filter"] --> P4B["4B: Journey Extraction"]
@@ -1338,6 +1482,7 @@ graph TD
     style P4 fill:#1a1a2e,stroke:#e94560,color:#fff
     style P5 fill:#1a1a2e,stroke:#0f3460,color:#fff
     style P6 fill:#1a1a2e,stroke:#533483,color:#fff
+    style P7 fill:#1a1a2e,stroke:#10b981,color:#fff
     style P4A fill:#2d1b4e,stroke:#e94560,color:#fff
     style P4B fill:#2d1b4e,stroke:#0f3460,color:#fff
     style P4C fill:#2d1b4e,stroke:#16213e,color:#fff
@@ -1384,6 +1529,7 @@ After all 6 phases are complete and the system is running:
 | **4F — Hypotheses** | Testable research hypotheses + interview guide | Hypothesis quality depends on all prior steps |
 | **5 — API** | Full REST interface | Query performance at scale |
 | **6 — Dashboard** | Visual discovery tool for researchers | Design complexity, data density |
+| **7 — RAG Assistant** | Conversational research Q&A chatbot | Retrieval quality, hallucination risk |
 
 > [!IMPORTANT]
 > The most critical success metric is **not** volume of data collected. It is the **quality and traceability** of evidence — every insight must trace back to real user conversations with source links.

@@ -86,4 +86,34 @@ router.get('/:id', async (req, res, next) => {
   }
 });
 
+router.get('/by-failure/:code', async (req, res, next) => {
+  try {
+    const { code } = req.params;
+    const result = await pool.query(`
+      SELECT id, record_id, source, source_date, failure_point, evidence_quote, final_outcome 
+      FROM analysis_results 
+      WHERE failure_point = $1
+      ORDER BY created_at DESC
+    `, [code]);
+    res.json(result.rows);
+  } catch (error) {
+    next(error);
+  }
+});
+
+router.get('/by-segment/:segment', async (req, res, next) => {
+  try {
+    const { segment } = req.params;
+    const result = await pool.query(`
+      SELECT id, record_id, source, source_date, failure_point, evidence_quote, final_outcome 
+      FROM analysis_results 
+      WHERE $1 = ANY(user_segment_signals)
+      ORDER BY created_at DESC
+    `, [segment]);
+    res.json(result.rows);
+  } catch (error) {
+    next(error);
+  }
+});
+
 export default router;

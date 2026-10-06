@@ -15,16 +15,36 @@ export class PipelineOrchestrator {
     // with some delay, or rely on event completion to trigger the next phase.
     // For now, we queue them all and let BullMQ workers process when data is available.
 
-    // 2. Trigger Cleaning
+    await this.triggerCleaning();
+    await this.triggerClassification();
+    await this.triggerExtraction();
+    await this.triggerSegmentation();
+  }
+
+  public async triggerCollection(source?: string) {
+    if (source) {
+      await collectionQueue.add('collect_batch', { source, options: { batchSize: 50 } });
+    } else {
+      const sources = Object.values(SOURCES).filter(s => s !== SOURCES.OTHER);
+      for (const src of sources) {
+        await collectionQueue.add('collect_batch', { source: src, options: { batchSize: 50 } });
+      }
+    }
+  }
+
+  public async triggerCleaning() {
     await cleaningQueue.add('clean_batch', { batchSize: 200 });
+  }
 
-    // 3. Trigger Classification
+  public async triggerClassification() {
     await classificationQueue.add('classify_batch', { batchSize: 200 });
+  }
 
-    // 4. Trigger Extraction
+  public async triggerExtraction() {
     await extractionQueue.add('extract_batch', { batchSize: 20 });
+  }
 
-    // 5. Trigger Segmentation
+  public async triggerSegmentation() {
     await segmentationQueue.add('segment_batch', {});
   }
 

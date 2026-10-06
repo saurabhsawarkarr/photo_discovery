@@ -15,22 +15,23 @@ interface Message {
 
 const SUGGESTED_QUESTIONS = [
   'Why do users abandon their photo search?',
-  'What is the Specificity Paradox?',
-  'What did Resham say about her search experience?',
-  'What are the three key findings and how do they connect?',
+  'What are the most common search failure themes?',
   'Which failure point occurs most frequently?',
-  'What user segments were identified in the research?',
-  'How did Naina manage to find her photo successfully?',
+  'What user segments were identified from the app reviews?',
   'What percentage of journeys ended in abandonment?',
+  'What are the hypotheses for improving query formulation?',
 ];
 
 const SOURCE_ICONS: Record<string, string> = {
   'Research Findings': '📋',
   'Research Context & Framework': '🗺️',
-  'User Interviews (Ishwar, Resham, Naina, Pritish)': '🎙️',
+  'App Store Reviews (Extracted)': '📱',
   'LLM Theme Analysis (13k reviews)': '🤖',
   'User Segment Analysis': '👥',
   'Failure Point Statistics': '📊',
+  'Research Hypotheses & Interview Questions': '🧪',
+  'User Journey Extractions (111 journeys)': '🗺️',
+  'Problem Statement & Research Goals': '🎯',
 };
 
 export default function AskPage() {
@@ -70,6 +71,12 @@ export default function AskPage() {
       isStreaming: true,
     };
 
+    // Capture current history before adding the new message
+    const chatHistory = messages.map(m => ({
+      role: m.role,
+      content: m.content
+    }));
+
     setMessages((prev) => [...prev, userMsg, aiMsg]);
 
     try {
@@ -79,10 +86,16 @@ export default function AskPage() {
       const res = await fetch(apiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: q }),
+        body: JSON.stringify({ question: q, history: chatHistory }),
       });
 
       if (!res.ok || !res.body) {
+        if (res.status === 401) {
+          throw new Error('API_KEY_MISSING');
+        }
+        if (res.status === 429 || res.status === 413) {
+          throw new Error('RATE_LIMIT');
+        }
         throw new Error(`API error: ${res.status}`);
       }
 
@@ -134,14 +147,21 @@ export default function AskPage() {
           }
         }
       }
-    } catch (err) {
+    } catch (err: any) {
+      let errorMessage = 'Sorry, something went wrong. Please check that the server is running and the Gemini API key is configured.';
+      
+      if (err.message === 'API_KEY_MISSING') {
+        errorMessage = '⚠️ **Configuration Error**: `GEMINI_API_KEY` is not set in `frontend/.env.local`. Please add it and restart the server.';
+      } else if (err.message === 'RATE_LIMIT') {
+        errorMessage = '⏳ **Rate Limit Reached**: The free Gemini API tier limit was exceeded. Please wait a moment before asking another question.';
+      }
+
       setMessages((prev) =>
         prev.map((m) =>
           m.id === aiMsgId
             ? {
                 ...m,
-                content:
-                  'Sorry, something went wrong. Please check that the server is running and the Groq API key is configured.',
+                content: errorMessage,
                 isStreaming: false,
               }
             : m
@@ -167,15 +187,15 @@ export default function AskPage() {
         <div className={styles.headerLeft}>
           <div className={styles.headerIcon}>🔬</div>
           <div>
-            <div className={styles.headerTitle}>Research Q&amp;A</div>
+            <div className={styles.headerTitle}>AI Discovery Engine</div>
             <div className={styles.headerSubtitle}>
-              Google Photos Discovery · Ask anything about the research
+              Google Photos Discovery · Query the extracted 13k review insights
             </div>
           </div>
         </div>
         <div className={styles.headerBadge}>
           <span className={styles.statusDot} />
-          6 documents · 111 journeys · 4 interviews
+          5 JSON collections · 111 journeys · 13k reviews
         </div>
       </header>
 
@@ -205,17 +225,20 @@ export default function AskPage() {
             <div className={styles.emptyIcon}>💬</div>
             <div className={styles.emptyTitle}>Ask the research</div>
             <div className={styles.emptyDesc}>
-              Get instant, evidence-backed answers from 6 research documents —
-              findings, interviews, 13k app reviews, and user segment data.
+              Get instant, evidence-backed answers from the AI Discovery Engine —
+              findings, 13k app reviews, hypotheses, journeys, and user segment data.
             </div>
             <div className={styles.docList}>
               {[
                 '📋 Findings.md',
                 '🗺️ Context.md',
-                '🎙️ User Interviews',
+                '📱 App Store Reviews',
                 '📊 Statistics',
                 '👥 Segments',
                 '🤖 Theme Analysis',
+                '🧪 Hypotheses',
+                '🗺️ User Journeys',
+                '🎯 Problem Statement',
               ].map((d) => (
                 <span key={d} className={styles.docChip}>
                   {d}

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
+import Sidebar from "../components/Sidebar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,9 +10,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Google Photos Research | Discovery Engine",
+  title: "Google Photos Research | AI Discovery Engine",
   description:
-    "Research findings, user interviews, and AI-powered Q&A for Google Photos photo retrieval failures.",
+    "AI-powered analysis and structured insights for Google Photos retrieval failures across 13,000+ user reviews.",
+  icons: {
+    icon: "/google-photos.svg",
+  },
 };
 
 export default function RootLayout({
@@ -22,24 +25,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
+      <head>
+        <link rel="icon" href="/google-photos.svg" type="image/svg+xml" />
+      </head>
       <body>
-        <nav className="global-nav">
-          <div className="nav-inner">
-            <Link href="/" className="nav-brand">
-              <span className="nav-brand-icon">📸</span>
-              <span>GP Discovery</span>
-            </Link>
-            <div className="nav-links">
-              <Link href="/findings" className="nav-link">
-                📋 Findings
-              </Link>
-              <Link href="/ask" className="nav-link nav-link-cta">
-                💬 Ask Research
-              </Link>
-            </div>
-          </div>
-        </nav>
-        {children}
+        <div className="dashboard-layout">
+          <Sidebar />
+          <main className="main-content">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
