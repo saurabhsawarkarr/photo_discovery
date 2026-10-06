@@ -73,7 +73,10 @@ export default function AskPage() {
     setMessages((prev) => [...prev, userMsg, aiMsg]);
 
     try {
-      const res = await fetch('/api/rag', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL 
+        ? `${process.env.NEXT_PUBLIC_API_URL}/api/rag` 
+        : '/api/rag';
+      const res = await fetch(apiUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question: q }),

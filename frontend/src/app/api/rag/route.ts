@@ -131,13 +131,34 @@ Please answer based strictly on the research context above. Include specific num
         'Cache-Control': 'no-cache, no-transform',
         Connection: 'keep-alive',
         'X-Accel-Buffering': 'no',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, Authorization',
       },
     });
   } catch (err) {
     console.error('[RAG API] Error:', err);
     return new Response(
       JSON.stringify({ error: 'Internal server error', detail: String(err) }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
+      { 
+        status: 500, 
+        headers: { 
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
+        } 
+      }
     );
   }
+}
+
+// Handle CORS preflight requests
+export async function OPTIONS() {
+  return new Response(null, {
+    status: 204,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    },
+  });
 }
