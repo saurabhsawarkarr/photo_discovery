@@ -65,7 +65,7 @@ From the combined analysis of all four sources, we identified **three key findin
 
 ---
 
-### Finding 1: The Dead-End Search — Insufficient Recovery Support After Failure
+### Finding 1: Dead-End Search — Insufficient Recovery Support After Failure
 
 **The gap:** In our live search tasks and review analysis, when a user's first search did not produce the desired photo, participants did not receive useful contextual guidance for recovering from the failed or insufficient search. While the system provides some generic suggestions, it does not offer adaptive refinement hints, contextual autocomplete, or "did you mean..." prompts that help users figure out what additional information to provide or how to narrow their results.
 
@@ -154,7 +154,7 @@ All four interview participants experienced search difficulties during their liv
 
 ---
 
-### Finding 2: The Semantic Gap — Unreliable Multi-Constraint Understanding
+### Finding 2: Search understanding — Unreliable Multi-Constraint Understanding
 
 **The gap:** Users remember photos as **episodes** (who was there + where it was + what was happening + what it looked like). Google Photos search can understand some natural-language and visual context — as demonstrated by Naina's successful searches — but its ability to **combine multiple constraints consistently is unreliable and unpredictable**. Users cannot predict which details the system can use to narrow a search, leading to a trial-and-error process with inconsistent outcomes.
 
@@ -233,7 +233,7 @@ Respondent improvement suggestions:
 
 ---
 
-### Finding 3: Search Coverage & Trust Gaps — Users Can't Tell Why Photos Are Missing
+### Finding 3: Silent/Missing Photos — Users Can't Tell Why Photos Are Missing
 
 **The gap:** Users cannot always tell whether a missing photo is absent because they searched incorrectly, because search couldn't understand the query, or because the photo isn't included in the searchable set. The search boundary is opaque — shared albums, partially synced content, and inconsistent face clustering all create situations where results may be silently incomplete, but the system provides no transparency signal to help users understand what's happening.
 
@@ -315,7 +315,7 @@ Each finding is scored on four dimensions (each 1–5), then weighted. These sco
 
 ### Scoring Matrix
 
-| Dimension | Finding 1: Dead-End Search | Finding 2: Semantic Gap | Finding 3: Search Coverage & Trust Gaps |
+| Dimension | Finding 1: Dead-End Search | Finding 2: Search understanding | Finding 3: Silent/Missing Photos |
 |---|---|---|---|
 | **Evidence Strength** (max 5) | **5** — Confirmed in all 4 sources. 48.6% of journeys hit this. All 4 interview participants experienced it in real time. 10/13 survey respondents want guided search. | **5** — Confirmed in all 4 sources. Theme T2 + Segment S2 in discovery engine. Demonstrated live in interviews. Survey confirms memory anchor types. | **4** — Strong in interviews (Ishwar face search, Resham shared folders). Discovery engine Theme T1 (largest theme). Less directly measurable in survey. |
 | **User Impact** (max 5) | **5** — Co-occurs with 48.6% abandonment rate. The lack of recovery guidance is strongly associated with the end of the search journey. | **4** — Causes frustration and wasted effort, but users sometimes find workarounds (Naina composed a 3-part query manually). Doesn't always end in abandonment. | **4** — When it hits, impact is severe (photos perceived as missing = anxiety about data loss). But it doesn't affect every search — only person-based and cross-device scenarios. |
@@ -327,8 +327,8 @@ Each finding is scored on four dimensions (each 1–5), then weighted. These sco
 | Rank | Finding | Evidence (×0.30) | Impact (×0.30) | Frequency (×0.20) | Relevance (×0.20) | **Total** |
 |---|---|---|---|---|---|---|
 | **🥇 1** | **Finding 1: Dead-End Search** | 5 × 0.30 = 1.50 | 5 × 0.30 = 1.50 | 5 × 0.20 = 1.00 | 5 × 0.20 = 1.00 | **5.00** |
-| **🥈 2** | **Finding 2: Semantic Gap** | 5 × 0.30 = 1.50 | 4 × 0.30 = 1.20 | 4 × 0.20 = 0.80 | 5 × 0.20 = 1.00 | **4.50** |
-| **🥉 3** | **Finding 3: Search Coverage & Trust Gaps** | 4 × 0.30 = 1.20 | 4 × 0.30 = 1.20 | 3 × 0.20 = 0.60 | 4 × 0.20 = 0.80 | **3.80** |
+| **🥈 2** | **Finding 2: Search understanding** | 5 × 0.30 = 1.50 | 4 × 0.30 = 1.20 | 4 × 0.20 = 0.80 | 5 × 0.20 = 1.00 | **4.50** |
+| **🥉 3** | **Finding 3: Silent/Missing Photos** | 4 × 0.30 = 1.20 | 4 × 0.30 = 1.20 | 3 × 0.20 = 0.60 | 4 × 0.20 = 0.80 | **3.80** |
 
 ### Prioritisation Summary
 
@@ -337,10 +337,10 @@ Each finding is scored on four dimensions (each 1–5), then weighted. These sco
  Finding 1: Dead-End Search — No Recovery Path
 
  PRIORITY 2 ██████████████████████████████████████████████████    4.50
- Finding 2: Semantic Gap — Memory vs. Keywords
+ Finding 2: Search understanding — Memory vs. Keywords
 
  PRIORITY 3 ████████████████████████████████████████              3.80
- Finding 3: Search Coverage & Trust Gaps
+ Finding 3: Silent/Missing Photos
 ```
 
 ### Why This Order?

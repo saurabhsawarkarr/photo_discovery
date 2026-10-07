@@ -34,7 +34,7 @@ const themes = [
     percentage: "32.4%",
     description: "User submits reasonable query but system doesn't understand context.",
     quote: `"I put an address in the search field and nothing useless." - App Store review`,
-    impact: "Medium/High - The 'Semantic Gap' problem.",
+    impact: "Medium/High - The 'Search understanding' problem.",
     coOccurrence: "Linked to the 'Semantic Specifics Seekers' segment."
   },
   {

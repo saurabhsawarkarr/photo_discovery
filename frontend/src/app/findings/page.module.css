@@ -1,256 +1,270 @@
 .container {
-  min-height: 100vh;
-  background-color: #202124;
-  color: #1e293b;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: inherit;
 }
 
 .header {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-  padding: 3rem 2rem;
-  color: white;
-  text-align: center;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  background: #ffffff;
+  padding: 2.25rem 2.5rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.04);
 }
 
 .header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 1.85rem;
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.header p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-top: 0.35rem;
+}
+
+.tabContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  padding: 1.25rem 2.5rem;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.tabButton {
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 20px;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tabButton:hover {
+  background-color: var(--gp-blue-light);
+  color: var(--gp-blue);
+  border-color: var(--gp-blue);
+}
+
+.activeTab {
+  background-color: var(--gp-blue-light);
+  color: var(--gp-blue);
+  border-color: var(--gp-blue);
+  box-shadow: 0 1px 3px rgba(26, 115, 232, 0.2);
 }
 
 .main {
-  max-width: 900px;
-  margin: 3rem auto;
-  padding: 3rem;
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+}
+
+.contentArea {
+  min-height: 500px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .markdownBody {
-  font-size: 1.1rem;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.06);
+  font-size: 1rem;
   line-height: 1.7;
+  color: #3c4043;
 }
 
 .markdownBody h1, 
 .markdownBody h2, 
-.markdownBody h3 {
-  color: #ffffff;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  font-weight: 600;
+.markdownBody h3,
+.markdownBody h4 {
+  color: #202124;
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+  font-weight: 700;
 }
 
 .markdownBody h1 {
-  font-size: 2.25rem;
-  border-bottom: 2px solid #3c4043;
-  padding-bottom: 0.5em;
+  font-size: 1.75rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.4em;
+  margin-top: 0;
 }
 
 .markdownBody h2 {
-  font-size: 1.875rem;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #f1f3f4;
+  padding-bottom: 0.3em;
 }
 
 .markdownBody h3 {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
 }
 
 .markdownBody p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.25em;
+  color: #3c4043;
 }
 
 .markdownBody ul, 
 .markdownBody ol {
-  margin-bottom: 1.5em;
-  padding-left: 2em;
+  margin-bottom: 1.25em;
+  padding-left: 1.75em;
 }
 
 .markdownBody li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.45em;
+  color: #3c4043;
 }
 
 .markdownBody table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 2em;
+  margin-bottom: 1.75em;
+  font-size: 0.95rem;
 }
 
 .markdownBody th, 
 .markdownBody td {
-  border: 1px solid #3c4043;
+  border: 1px solid var(--border-color);
   padding: 0.75rem 1rem;
   text-align: left;
 }
 
 .markdownBody th {
-  background-color: #f1f5f9;
-  font-weight: 600;
+  background-color: #f8fafd;
+  font-weight: 700;
+  color: #202124;
+}
+
+.markdownBody td {
+  color: #3c4043;
 }
 
 .markdownBody blockquote {
-  border-left: 4px solid #3b82f6;
-  background-color: #eff6ff;
-  padding: 1rem 1.5rem;
-  margin: 1.5em 0;
+  border-left: 4px solid var(--gp-blue);
+  background-color: var(--gp-blue-light);
+  padding: 0.85rem 1.25rem;
+  margin: 1.25em 0;
   border-radius: 0 8px 8px 0;
-  color: #1e3a8a;
+  color: #1a73e8;
   font-style: italic;
 }
 
 .markdownBody code {
-  background-color: #f1f5f9;
-  padding: 0.2em 0.4em;
+  background-color: #f1f3f4;
+  padding: 0.2em 0.45em;
   border-radius: 4px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 0.9em;
-  color: #b91c1c;
-}
-
-.markdownBody pre code {
-  background-color: transparent;
-  padding: 0;
-  color: inherit;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.88em;
+  color: var(--gp-purple);
 }
 
 .markdownBody pre {
-  background-color: #1e293b;
+  background-color: #f8fafd;
+  border: 1px solid var(--border-color);
   color: #202124;
-  padding: 1.5rem;
+  padding: 1.25rem;
   border-radius: 8px;
   overflow-x: auto;
   margin-bottom: 1.5em;
 }
 
-.tabContainer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: -1.5rem auto 2rem auto;
-  max-width: 1000px;
-  padding: 0 1rem;
-  position: relative;
-  z-index: 10;
-}
-
-.tabButton {
-  background-color: white;
-  border: 1px solid #3c4043;
-  border-radius: 9999px;
-  padding: 0.5rem 1.25rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #64748b;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-}
-
-.tabButton:hover {
-  background-color: #202124;
-  color: #3b82f6;
-  border-color: #3c4043;
-}
-
-.activeTab {
-  background-color: #3b82f6;
-  color: white;
-  border-color: #3b82f6;
-  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.4);
-}
-
-.activeTab:hover {
-  background-color: #2563eb;
-  color: white;
-  border-color: #2563eb;
-}
-
-.contentArea {
-  min-height: 500px;
-  animation: fadeIn 0.4s ease-in-out;
-}
-
-.jsonView {
-  background-color: #ffffff;
-  color: #38bdf8;
-  padding: 1.5rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
-  padding: 1rem 0;
 }
 
 .card {
-  background: white;
-  border: 1px solid #3c4043;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
   border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 1.6rem;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  border-color: #3c4043;
+  box-shadow: 0 6px 16px rgba(60, 64, 67, 0.1);
+  border-color: var(--gp-blue);
 }
 
 .card h3, .card h4 {
   margin-top: 0;
-  margin-bottom: 1rem;
-  color: #ffffff;
-  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #202124;
+  font-weight: 700;
+  font-size: 1.15rem;
 }
 
 .card p {
-  margin: 0.5rem 0;
-  color: #475569;
+  margin: 0.45rem 0;
+  color: #3c4043;
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .card ul {
   padding-left: 1.5rem;
   margin: 0.5rem 0;
-  color: #475569;
+  color: #3c4043;
 }
 
 .card li {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.35rem;
 }
 
 .badge {
   display: inline-block;
-  background-color: #eff6ff;
-  color: #2563eb;
-  padding: 0.2rem 0.6rem;
-  border-radius: 9999px;
+  background-color: var(--gp-blue-light);
+  color: var(--gp-blue);
+  border: 1px solid var(--gp-blue-border);
+  padding: 0.25rem 0.65rem;
+  border-radius: 14px;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
 }
 
 .statement {
   font-style: italic;
-  color: #1e293b !important;
-  border-left: 3px solid #3b82f6;
-  padding-left: 1rem;
+  color: #202124 !important;
+  border-left: 3px solid var(--gp-blue);
+  background: #f8fafd;
+  padding: 0.75rem 1rem;
+  border-radius: 0 8px 8px 0;
   margin: 1rem 0 !important;
+}
+
+.jsonView {
+  background-color: #f8fafd;
+  border: 1px solid var(--border-color);
+  color: #202124;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.88rem;
+  line-height: 1.5;
 }

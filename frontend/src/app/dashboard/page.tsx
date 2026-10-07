@@ -3,7 +3,6 @@ import path from 'path';
 import DashboardClient from './DashboardClient';
 
 export default async function DashboardPage() {
-  // Read JSON data directly from the data directory
   const dataDir = path.join(process.cwd(), '..', 'data', 'phase4');
   
   const readJson = (filename: string) => {
@@ -22,10 +21,16 @@ export default async function DashboardPage() {
   const themesData = readJson('phase4d_themes.json');
 
   if (!stats || !segmentsData || !themesData) {
-    return <div>Error loading dashboard data. Check server logs.</div>;
+    return (
+      <div className="page-container">
+        <div className="page-header">
+          <h1 className="page-title">Executive Dashboard</h1>
+          <p className="page-description">Error loading dashboard data. Check server logs.</p>
+        </div>
+      </div>
+    );
   }
 
-  // Pre-process failure points for Recharts
   const failurePointsMap: Record<string, string> = {
     'A': 'Memory Expression',
     'B': 'Query Formulation',
@@ -50,15 +55,13 @@ export default async function DashboardPage() {
   }));
 
   return (
-    <div className="page-container" style={{ padding: '2rem 4rem', maxWidth: '1400px', margin: '0 auto' }}>
-      <div className="page-header" style={{ marginBottom: '2rem' }}>
-        <h1 className="page-title" style={{ fontSize: '2.5rem', fontWeight: 800, color: '#1e293b' }}>
-          Discovery Engine Dashboard
-        </h1>
-        <p className="page-description" style={{ color: '#64748b', fontSize: '1.1rem' }}>
-          AI-generated behavioral insights, user segments, and failure point statistics across {stats.total_records} retrieval journeys.
+    <div className="page-container">
+      <header className="page-header">
+        <h1 className="page-title">Discovery Engine Dashboard</h1>
+        <p className="page-description">
+          AI-generated behavioral insights, user segments, and failure point statistics across {stats.total_records} structured retrieval journeys.
         </p>
-      </div>
+      </header>
       
       <DashboardClient 
         failureDistribution={failureDistribution} 

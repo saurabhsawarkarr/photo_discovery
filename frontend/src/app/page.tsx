@@ -121,15 +121,15 @@ export default async function Home() {
             <h2 className={styles.cardTitle}>Key Findings</h2>
             <div className={styles.findingsContent}>
               <div className={styles.findingItem}>
-                <h3>1. The Dead-End Search</h3>
+                <h3>1. Dead-End Search</h3>
                 <p>Insufficient recovery support after an initial failed search. 48.6% of journeys end in abandonment because users aren&apos;t guided on how to refine their queries.</p>
               </div>
               <div className={styles.findingItem}>
-                <h3>2. The Semantic Gap</h3>
+                <h3>2. Search understanding</h3>
                 <p>Unreliable multi-constraint understanding. Users remember photos as episodes (who + where + what), but combining these constraints leads to unpredictable search failures.</p>
               </div>
               <div className={styles.findingItem}>
-                <h3>3. Search Coverage & Trust Gaps</h3>
+                <h3>3. Silent/Missing Photos</h3>
                 <p>Users cannot tell if a photo is missing due to a bad search or because it isn&apos;t indexed (e.g., in a shared album or on device only). Leads to anxiety over data loss.</p>
               </div>
             </div>

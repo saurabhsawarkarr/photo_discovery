@@ -123,11 +123,11 @@ export default function EvidenceExplorer() {
           <tbody>
             {isLoading ? (
               <tr>
-                <td colSpan={5} className={styles.loadingCell}>Loading evidence...</td>
+                <td colSpan={6} className={styles.loadingCell}>Loading evidence...</td>
               </tr>
             ) : data.length === 0 ? (
               <tr>
-                <td colSpan={5} className={styles.loadingCell}>No records found for the selected filters.</td>
+                <td colSpan={6} className={styles.loadingCell}>No records found for the selected filters.</td>
               </tr>
             ) : (
               data.map(row => {
@@ -138,14 +138,14 @@ export default function EvidenceExplorer() {
 
                 return (
                   <tr key={row.id}>
-                    <td><span className={styles.badge}>{row.source}</span></td>
+                    <td><span className={styles.badge}>{row.source?.replace('_', ' ')}</span></td>
                     <td><span className={styles.failureBadge}>{row.failure_point || 'N/A'}</span></td>
-                    <td>{row.final_outcome || 'N/A'}</td>
+                    <td><strong style={{ color: '#202124', textTransform: 'capitalize' }}>{row.final_outcome || 'N/A'}</strong></td>
                     <td><div className={styles.quote}>{row.evidence_quote}</div></td>
-                    <td>{new Date(row.source_date).toLocaleDateString()}</td>
+                    <td>{row.source_date ? (isNaN(new Date(row.source_date).getTime()) ? row.source_date : new Date(row.source_date).toLocaleDateString()) : '2024'}</td>
                     <td>
                       <a href={reviewUrl} target="_blank" rel="noopener noreferrer" className={styles.reviewLinkBtn}>
-                        View Link ↗
+                        View Evidence ↗
                       </a>
                     </td>
                   </tr>

@@ -34,7 +34,8 @@ export default function TabsClient({
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <h1>Google Photos Research Data</h1>
+        <h1>Google Photos Research Findings</h1>
+        <p>Comprehensive research documentation, coded journeys, and empirical LLM syntheses.</p>
       </header>
       
       <div className={styles.tabContainer}>
